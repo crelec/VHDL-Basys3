@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1689437803">
+  <File Type="ROUTE-PWR" Name="TopMuxDisplay_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="TopMuxDisplay.tcl"/>
+  <File Type="ROUTE-PWR-SUM" Name="TopMuxDisplay_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="TopMuxDisplay_reports.tcl"/>
+  <File Type="OPT-RQA-PB" Name="TopMuxDisplay_rqa_opted.pb"/>
+  <File Type="BITSTR-MMI" Name="TopMuxDisplay.mmi"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="TopMuxDisplay_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="TopMuxDisplay_timing_summary_init.rpt"/>
+  <File Type="OPT-TIMING" Name="TopMuxDisplay_timing_summary_opted.rpt"/>
+  <File Type="OPT-DCP" Name="TopMuxDisplay_opt.dcp"/>
+  <File Type="OPT-DRC" Name="TopMuxDisplay_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="TopMuxDisplay.hwdef"/>
+  <File Type="PWROPT-DCP" Name="TopMuxDisplay_pwropt.dcp"/>
+  <File Type="PWROPT-DRC" Name="TopMuxDisplay_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="TopMuxDisplay_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="TopMuxDisplay_placed.dcp"/>
+  <File Type="PLACE-IO" Name="TopMuxDisplay_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="TopMuxDisplay_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="TopMuxDisplay_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="TopMuxDisplay_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="TopMuxDisplay_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="TopMuxDisplay_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="TopMuxDisplay_incremental_reuse_pre_placed.rpt"/>
+  <File Type="BG-BIN" Name="TopMuxDisplay.bin"/>
+  <File Type="PLACE-TIMING" Name="TopMuxDisplay_timing_summary_placed.rpt"/>
+  <File Type="ROUTE-PWR-RPX" Name="TopMuxDisplay_power_routed.rpx"/>
+  <File Type="PLACE-RQA-PB" Name="TopMuxDisplay_rqa_placed.pb"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="TopMuxDisplay_postplace_pwropt.dcp"/>
+  <File Type="BITSTR-MSK" Name="TopMuxDisplay.msk"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="TopMuxDisplay_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="TopMuxDisplay_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="TopMuxDisplay_drc_physopted.rpt"/>
+  <File Type="BITSTR-RBT" Name="TopMuxDisplay.rbt"/>
+  <File Type="PHYSOPT-TIMING" Name="TopMuxDisplay_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="TopMuxDisplay_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="TopMuxDisplay_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="TopMuxDisplay_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="TopMuxDisplay_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="TopMuxDisplay_drc_routed.pb"/>
+  <File Type="ROUTE-DRC-RPX" Name="TopMuxDisplay_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="TopMuxDisplay_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="TopMuxDisplay_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="TopMuxDisplay_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-RQS-PB" Name="TopMuxDisplay_rqs_routed.pb"/>
+  <File Type="ROUTE-STATUS" Name="TopMuxDisplay_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="TopMuxDisplay_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="TopMuxDisplay_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="TopMuxDisplay_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="TopMuxDisplay_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="TopMuxDisplay_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="TopMuxDisplay_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="TopMuxDisplay_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="TopMuxDisplay_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="TopMuxDisplay_bus_skew_routed.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="TopMuxDisplay_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="TopMuxDisplay_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="TopMuxDisplay_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="TopMuxDisplay_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="TopMuxDisplay_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="TopMuxDisplay_bus_skew_postroute_physopted.rpt"/>
+  <File Type="BG-BIT" Name="TopMuxDisplay.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="TopMuxDisplay_bus_skew_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="TopMuxDisplay_bus_skew_postroute_physopted.rpx"/>
+  <File Type="BITSTR-NKY" Name="TopMuxDisplay.nky"/>
+  <File Type="BITSTR-BMM" Name="TopMuxDisplay_bd.bmm"/>
+  <File Type="PDI-FILE" Name="TopMuxDisplay.pdi"/>
+  <File Type="BOOT-PDI-FILE" Name="TopMuxDisplay_soc.pdi"/>
+  <File Type="PL-PDI-FILE" Name="TopMuxDisplay_pld.pdi"/>
+  <File Type="RCFI_FILE" Name="TopMuxDisplay.rcfi"/>
+  <File Type="CFI_FILE" Name="TopMuxDisplay.cfi"/>
+  <File Type="RNPI_FILE" Name="TopMuxDisplay.rnpi"/>
+  <File Type="NPI_FILE" Name="TopMuxDisplay.npi"/>
+  <File Type="RBD_FILE" Name="TopMuxDisplay.rbd"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="TopMuxDisplay.ltx"/>
+  <File Type="BITSTR-SYSDEF" Name="TopMuxDisplay.sysdef"/>
+  <File Type="BG-BGN" Name="TopMuxDisplay.bgn"/>
+  <File Type="BG-DRC" Name="TopMuxDisplay.drc"/>
+  <File Type="RDI-RDI" Name="TopMuxDisplay.vdi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="ROUTE-RQS" Name="TopMuxDisplay_routed.rqs"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS" Name="TopMuxDisplay_postroute_physopted.rqs"/>
+  <File Type="ROUTE-RQS-RPT" Name="route_report_qor_suggestions_0.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS-RPT" Name="postroute_physopt_report_qor_suggestions_0.rpt"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/Display.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Mux4a1.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/negacion.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/TopMuxDisplay.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="TopMuxDisplay"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1" RelGenDir="$PGENDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/Pines.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1" RelGenDir="$PGENDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2023">
+      <Desc>Default settings for Implementation.</Desc>
+    </StratHandle>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>
