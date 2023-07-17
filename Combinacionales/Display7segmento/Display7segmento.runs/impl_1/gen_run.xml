@@ -1,71 +1,85 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1688727880">
+<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1689627930">
   <File Type="ROUTE-PWR" Name="ModuloDisplay_power_routed.rpt"/>
   <File Type="PA-TCL" Name="ModuloDisplay.tcl"/>
   <File Type="ROUTE-PWR-SUM" Name="ModuloDisplay_power_summary_routed.pb"/>
   <File Type="REPORTS-TCL" Name="ModuloDisplay_reports.tcl"/>
-  <File Type="BITSTR-MSK" Name="ModuloDisplay.msk"/>
-  <File Type="ROUTE-CLK" Name="ModuloDisplay_clock_utilization_routed.rpt"/>
-  <File Type="RDI-RDI" Name="ModuloDisplay.vdi"/>
-  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="ModuloDisplay_bus_skew_postroute_physopted.pb"/>
-  <File Type="BG-BIT" Name="ModuloDisplay.bit"/>
-  <File Type="BG-DRC" Name="ModuloDisplay.drc"/>
-  <File Type="BG-BGN" Name="ModuloDisplay.bgn"/>
-  <File Type="BG-BIN" Name="ModuloDisplay.bin"/>
-  <File Type="BITSTR-RBT" Name="ModuloDisplay.rbt"/>
-  <File Type="BITSTR-NKY" Name="ModuloDisplay.nky"/>
-  <File Type="BITSTR-BMM" Name="ModuloDisplay_bd.bmm"/>
+  <File Type="OPT-RQA-PB" Name="ModuloDisplay_rqa_opted.pb"/>
   <File Type="BITSTR-MMI" Name="ModuloDisplay.mmi"/>
-  <File Type="ROUTE-METHODOLOGY-DRC" Name="ModuloDisplay_methodology_drc_routed.rpt"/>
-  <File Type="BITSTR-SYSDEF" Name="ModuloDisplay.sysdef"/>
-  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="ModuloDisplay_methodology_drc_routed.pb"/>
-  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
-  <File Type="BITSTR-LTX" Name="ModuloDisplay.ltx"/>
-  <File Type="BOOT-PDI-FILE" Name="ModuloDisplay_soc.pdi"/>
-  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
-  <File Type="NPI_FILE" Name="ModuloDisplay.npi"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="ModuloDisplay_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="ModuloDisplay_timing_summary_init.rpt"/>
+  <File Type="OPT-TIMING" Name="ModuloDisplay_timing_summary_opted.rpt"/>
+  <File Type="OPT-DCP" Name="ModuloDisplay_opt.dcp"/>
   <File Type="OPT-DRC" Name="ModuloDisplay_drc_opted.rpt"/>
-  <File Type="RBD_FILE" Name="ModuloDisplay.rbd"/>
   <File Type="OPT-HWDEF" Name="ModuloDisplay.hwdef"/>
+  <File Type="PWROPT-DCP" Name="ModuloDisplay_pwropt.dcp"/>
+  <File Type="PWROPT-DRC" Name="ModuloDisplay_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="ModuloDisplay_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="ModuloDisplay_placed.dcp"/>
   <File Type="PLACE-IO" Name="ModuloDisplay_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="ModuloDisplay_clock_utilization_placed.rpt"/>
   <File Type="PLACE-UTIL" Name="ModuloDisplay_utilization_placed.rpt"/>
   <File Type="PLACE-UTIL-PB" Name="ModuloDisplay_utilization_placed.pb"/>
   <File Type="PLACE-CTRL" Name="ModuloDisplay_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="ModuloDisplay_incremental_reuse_placed.rpt"/>
   <File Type="PLACE-PRE-SIMILARITY" Name="ModuloDisplay_incremental_reuse_pre_placed.rpt"/>
+  <File Type="BG-BIN" Name="ModuloDisplay.bin"/>
+  <File Type="PLACE-TIMING" Name="ModuloDisplay_timing_summary_placed.rpt"/>
+  <File Type="ROUTE-PWR-RPX" Name="ModuloDisplay_power_routed.rpx"/>
+  <File Type="PLACE-RQA-PB" Name="ModuloDisplay_rqa_placed.pb"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="ModuloDisplay_postplace_pwropt.dcp"/>
+  <File Type="BITSTR-MSK" Name="ModuloDisplay.msk"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="ModuloDisplay_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="ModuloDisplay_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="ModuloDisplay_drc_physopted.rpt"/>
+  <File Type="BITSTR-RBT" Name="ModuloDisplay.rbt"/>
+  <File Type="PHYSOPT-TIMING" Name="ModuloDisplay_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="ModuloDisplay_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="ModuloDisplay_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="ModuloDisplay_routed_bb.dcp"/>
   <File Type="ROUTE-DRC" Name="ModuloDisplay_drc_routed.rpt"/>
   <File Type="ROUTE-DRC-PB" Name="ModuloDisplay_drc_routed.pb"/>
-  <File Type="ROUTE-PWR-RPX" Name="ModuloDisplay_power_routed.rpx"/>
+  <File Type="ROUTE-DRC-RPX" Name="ModuloDisplay_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="ModuloDisplay_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="ModuloDisplay_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="ModuloDisplay_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-RQS-PB" Name="ModuloDisplay_rqs_routed.pb"/>
   <File Type="ROUTE-STATUS" Name="ModuloDisplay_route_status.rpt"/>
   <File Type="ROUTE-STATUS-PB" Name="ModuloDisplay_route_status.pb"/>
-  <File Type="ROUTE-DCP" Name="ModuloDisplay_routed.dcp"/>
-  <File Type="ROUTE-ERROR-DCP" Name="ModuloDisplay_routed_error.dcp"/>
-  <File Type="ROUTE-BLACKBOX-DCP" Name="ModuloDisplay_routed_bb.dcp"/>
   <File Type="ROUTE-TIMINGSUMMARY" Name="ModuloDisplay_timing_summary_routed.rpt"/>
   <File Type="ROUTE-TIMING-PB" Name="ModuloDisplay_timing_summary_routed.pb"/>
   <File Type="ROUTE-TIMING-RPX" Name="ModuloDisplay_timing_summary_routed.rpx"/>
   <File Type="ROUTE-SIMILARITY" Name="ModuloDisplay_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="ModuloDisplay_clock_utilization_routed.rpt"/>
   <File Type="ROUTE-BUS-SKEW" Name="ModuloDisplay_bus_skew_routed.rpt"/>
   <File Type="ROUTE-BUS-SKEW-PB" Name="ModuloDisplay_bus_skew_routed.pb"/>
   <File Type="ROUTE-BUS-SKEW-RPX" Name="ModuloDisplay_bus_skew_routed.rpx"/>
-  <File Type="OPT-DCP" Name="ModuloDisplay_opt.dcp"/>
-  <File Type="PLACE-DCP" Name="ModuloDisplay_placed.dcp"/>
-  <File Type="PWROPT-DCP" Name="ModuloDisplay_pwropt.dcp"/>
-  <File Type="POSTPLACE-PWROPT-DCP" Name="ModuloDisplay_postplace_pwropt.dcp"/>
-  <File Type="PHYSOPT-DCP" Name="ModuloDisplay_physopt.dcp"/>
   <File Type="POSTROUTE-PHYSOPT-DCP" Name="ModuloDisplay_postroute_physopt.dcp"/>
   <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="ModuloDisplay_postroute_physopt_bb.dcp"/>
   <File Type="POSTROUTE-PHYSOPT-TIMING" Name="ModuloDisplay_timing_summary_postroute_physopted.rpt"/>
   <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="ModuloDisplay_timing_summary_postroute_physopted.pb"/>
   <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="ModuloDisplay_timing_summary_postroute_physopted.rpx"/>
   <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="ModuloDisplay_bus_skew_postroute_physopted.rpt"/>
+  <File Type="BG-BIT" Name="ModuloDisplay.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="ModuloDisplay_bus_skew_postroute_physopted.pb"/>
   <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="ModuloDisplay_bus_skew_postroute_physopted.rpx"/>
-  <File Type="ROUTE-DRC-RPX" Name="ModuloDisplay_drc_routed.rpx"/>
-  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="ModuloDisplay_methodology_drc_routed.rpx"/>
+  <File Type="BITSTR-NKY" Name="ModuloDisplay.nky"/>
+  <File Type="BITSTR-BMM" Name="ModuloDisplay_bd.bmm"/>
   <File Type="PDI-FILE" Name="ModuloDisplay.pdi"/>
+  <File Type="BOOT-PDI-FILE" Name="ModuloDisplay_soc.pdi"/>
   <File Type="PL-PDI-FILE" Name="ModuloDisplay_pld.pdi"/>
   <File Type="RCFI_FILE" Name="ModuloDisplay.rcfi"/>
   <File Type="CFI_FILE" Name="ModuloDisplay.cfi"/>
   <File Type="RNPI_FILE" Name="ModuloDisplay.rnpi"/>
+  <File Type="NPI_FILE" Name="ModuloDisplay.npi"/>
+  <File Type="RBD_FILE" Name="ModuloDisplay.rbd"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="ModuloDisplay.ltx"/>
+  <File Type="BITSTR-SYSDEF" Name="ModuloDisplay.sysdef"/>
+  <File Type="BG-BGN" Name="ModuloDisplay.bgn"/>
+  <File Type="BG-DRC" Name="ModuloDisplay.drc"/>
+  <File Type="RDI-RDI" Name="ModuloDisplay.vdi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
   <File Type="ROUTE-RQS" Name="ModuloDisplay_routed.rqs"/>
   <File Type="POSTROUTE-PHYSOPT-RQS" Name="ModuloDisplay_postroute_physopted.rqs"/>
   <File Type="ROUTE-RQS-RPT" Name="route_report_qor_suggestions_0.rpt"/>
@@ -98,6 +112,14 @@
   </FileSet>
   <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1" RelGenDir="$PGENDIR/utils_1">
     <Filter Type="Utils"/>
+    <File Path="$PSRCDIR/utils_1/imports/synth_1/ModuloDisplay.dcp">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedInSteps" Val="synth_1"/>
+        <Attr Name="AutoDcp" Val="1"/>
+      </FileInfo>
+    </File>
     <Config>
       <Option Name="TopAutoSet" Val="TRUE"/>
     </Config>
@@ -113,6 +135,5 @@
     <Step Id="route_design"/>
     <Step Id="post_route_phys_opt_design"/>
     <Step Id="write_bitstream"/>
-    <Step Id="write_device_image"/>
   </Strategy>
 </GenRun>
