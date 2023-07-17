@@ -25,7 +25,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='D:/Repo-Lenovo/VHDL-Basys3/Combinacionales/publick7seg/publick7seg.runs/impl_1'
+HD_PWD='D:/Repo-Lenovo/VHDL-Basys3/Secuenciales/publick7seg/publick7seg.runs/impl_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log
@@ -42,7 +42,7 @@ EAStep()
 }
 
 # pre-commands:
-/bin/touch .init_design.begin.rst
+/bin/touch .write_bitstream.begin.rst
 EAStep vivado -log SupPublick.vdi -applog -m64 -product Vivado -messageDb vivado.pb -mode batch -source SupPublick.tcl -notrace
 
 
