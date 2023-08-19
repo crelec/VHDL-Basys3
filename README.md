@@ -11,3 +11,8 @@
 * **Ejemplo Apliacación Bus de datos.** [Ver -> GitHub](https://github.com/ceroma1/VHDL-Basys3/tree/main/Combinacionales/Bus_datos)
 
 ## **Combinacionales Secuenciales.**
+* **Ejemplo Divisor de frecuencia.** [Ver -> GitHub](https://github.com/ceroma1/VHDL-Basys3/tree/main/Secuenciales/DivisorFrecuencia)
+* **Ejemplo Contador binario de 8 bits.** [Ver -> GitHub](https://github.com/ceroma1/VHDL-Basys3/tree/main/Secuenciales/ContadorBinario)
+* **Ejemplo concepto visualización dinámica.** [Ver -> GitHub](https://github.com/ceroma1/VHDL-Basys3/tree/main/Secuenciales/MuxDisplayMano)
+* **Ejemplo Implementacion final visualización dinámica.** [Ver -> GitHub](https://github.com/ceroma1/VHDL-Basys3/tree/main/Secuenciales/MuxDisplayAuto)
+* **Ejemplo Contador decimal de 4 bits (0 a 9999).** [Ver -> GitHub](https://github.com/ceroma1/VHDL-Basys3/tree/main/Secuenciales/ContadorDecimal)
