@@ -1,0 +1,11 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../publick7seg.srcs/sources_1/new/Mux4a1.vhd" \
+"../../../../publick7seg.srcs/sources_1/new/SupPublick.vhd" \
+"../../../../publick7seg.srcs/sources_1/new/cuenta.vhd" \
+"../../../../publick7seg.srcs/sources_1/new/divide.vhd" \
+"../../../../publick7seg.srcs/sources_1/new/negacion.vhd" \
+"../../../../publick7seg.srcs/sim_1/new/tes.vhd" \
+
+# Do not sort compile order
+nosort

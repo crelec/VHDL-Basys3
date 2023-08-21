@@ -3,8 +3,8 @@
 # SW Build 3900603 on Fri Jun 16 19:31:24 MDT 2023
 # IP Build 3900379 on Sat Jun 17 05:28:05 MDT 2023
 # SharedData Build 3899622 on Fri Jun 16 03:34:24 MDT 2023
-# Start of session at: Mon Aug 21 07:14:51 2023
-# Process ID: 16540
+# Start of session at: Mon Jul 17 17:52:49 2023
+# Process ID: 19020
 # Current directory: D:/Repo-Lenovo/VHDL-Basys3/Secuenciales/publick7seg/publick7seg.runs/impl_1
 # Command line: vivado.exe -log SupPublick.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source SupPublick.tcl -notrace
 # Log file: D:/Repo-Lenovo/VHDL-Basys3/Secuenciales/publick7seg/publick7seg.runs/impl_1/SupPublick.vdi
