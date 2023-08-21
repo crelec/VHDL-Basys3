@@ -103,6 +103,8 @@ read_xdc D:/Repo-Lenovo/VHDL-Basys3/Secuenciales/ContadorBinario/ContadorBinario
 set_property used_in_implementation false [get_files D:/Repo-Lenovo/VHDL-Basys3/Secuenciales/ContadorBinario/ContadorBinario.srcs/constrs_1/new/pines.xdc]
 
 set_param ips.enableIPCacheLiteLoad 1
+
+read_checkpoint -auto_incremental -incremental D:/Repo-Lenovo/VHDL-Basys3/Secuenciales/ContadorBinario/ContadorBinario.srcs/utils_1/imports/synth_1/SupContador.dcp
 close [open __synthesis_is_running__ w]
 
 OPTRACE "synth_design" START { }
