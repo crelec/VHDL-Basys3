@@ -1,0 +1,15 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../MuxPublick.srcs/sources_1/new/MuxCuatro.vhd" \
+"../../../../MuxPublick.srcs/sources_1/new/MuxDos.vhd" \
+"../../../../MuxPublick.srcs/sources_1/new/MuxFin.vhd" \
+"../../../../MuxPublick.srcs/sources_1/new/MuxTres.vhd" \
+"../../../../MuxPublick.srcs/sources_1/new/MuxUno.vhd" \
+"../../../../MuxPublick.srcs/sources_1/new/SupMuxPublick.vhd" \
+"../../../../MuxPublick.srcs/sources_1/new/cuenta.vhd" \
+"../../../../MuxPublick.srcs/sources_1/new/divide.vhd" \
+"../../../../MuxPublick.srcs/sources_1/new/negacion.vhd" \
+"../../../../MuxPublick.srcs/sim_1/new/Tes.vhd" \
+
+# Do not sort compile order
+nosort

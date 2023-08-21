@@ -1,0 +1,20 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Repo-Lenovo/VHDL-Basys3/Secuenciales/MuxPublick/MuxPublick.srcs/sources_1/new/MuxCuatro.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'MuxCuatro'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Repo-Lenovo/VHDL-Basys3/Secuenciales/MuxPublick/MuxPublick.srcs/sources_1/new/MuxDos.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'MuxDos'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Repo-Lenovo/VHDL-Basys3/Secuenciales/MuxPublick/MuxPublick.srcs/sources_1/new/MuxFin.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'MuxFin'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Repo-Lenovo/VHDL-Basys3/Secuenciales/MuxPublick/MuxPublick.srcs/sources_1/new/MuxTres.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'MuxTres'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Repo-Lenovo/VHDL-Basys3/Secuenciales/MuxPublick/MuxPublick.srcs/sources_1/new/MuxUno.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'MuxUno'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Repo-Lenovo/VHDL-Basys3/Secuenciales/MuxPublick/MuxPublick.srcs/sources_1/new/SupMuxPublick.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'SupMuxPublick'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Repo-Lenovo/VHDL-Basys3/Secuenciales/MuxPublick/MuxPublick.srcs/sources_1/new/cuenta.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'cuenta'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Repo-Lenovo/VHDL-Basys3/Secuenciales/MuxPublick/MuxPublick.srcs/sources_1/new/divide.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'divide'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Repo-Lenovo/VHDL-Basys3/Secuenciales/MuxPublick/MuxPublick.srcs/sources_1/new/negacion.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'negacion'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Repo-Lenovo/VHDL-Basys3/Secuenciales/MuxPublick/MuxPublick.srcs/sim_1/new/Tes.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Tes'
