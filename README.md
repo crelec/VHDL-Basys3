@@ -18,3 +18,5 @@
 * **Ejemplo Implementacion final visualización dinámica.** [Ver -> GitHub](https://github.com/ceroma1/VHDL-Basys3/tree/main/Secuenciales/MuxDisplayAuto)
 * **Ejemplo Contador decimal de 4 bits (0 a 9999).** [Ver -> GitHub](https://github.com/ceroma1/VHDL-Basys3/tree/main/Secuenciales/ContadorDecimal)
 * **Ejemplo Mostar mensaje fijo Publick.** [Ver -> GitHub](https://github.com/ceroma1/VHDL-Basys3/tree/main/Secuenciales/publick7seg)
+* **Ejemplo Multiplexación de mensajes fijos.** [Ver -> GitHub](https://github.com/ceroma1/VHDL-Basys3/tree/main/Secuenciales/MuxPublick)
+* 
