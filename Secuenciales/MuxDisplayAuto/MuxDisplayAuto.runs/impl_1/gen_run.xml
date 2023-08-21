@@ -18,10 +18,14 @@
   <File Type="BITSTR-MMI" Name="SupMuxDisplayAuto.mmi"/>
   <File Type="ROUTE-METHODOLOGY-DRC" Name="SupMuxDisplayAuto_methodology_drc_routed.rpt"/>
   <File Type="BITSTR-SYSDEF" Name="SupMuxDisplayAuto.sysdef"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="SupMuxDisplayAuto_methodology_drc_routed.pb"/>
   <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
   <File Type="BITSTR-LTX" Name="SupMuxDisplayAuto.ltx"/>
+  <File Type="BOOT-PDI-FILE" Name="SupMuxDisplayAuto_soc.pdi"/>
   <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="NPI_FILE" Name="SupMuxDisplayAuto.npi"/>
   <File Type="OPT-DRC" Name="SupMuxDisplayAuto_drc_opted.rpt"/>
+  <File Type="RBD_FILE" Name="SupMuxDisplayAuto.rbd"/>
   <File Type="OPT-HWDEF" Name="SupMuxDisplayAuto.hwdef"/>
   <File Type="PLACE-IO" Name="SupMuxDisplayAuto_io_placed.rpt"/>
   <File Type="PLACE-UTIL" Name="SupMuxDisplayAuto_utilization_placed.rpt"/>
@@ -55,17 +59,13 @@
   <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="SupMuxDisplayAuto_timing_summary_postroute_physopted.rpx"/>
   <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="SupMuxDisplayAuto_bus_skew_postroute_physopted.rpt"/>
   <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="SupMuxDisplayAuto_bus_skew_postroute_physopted.rpx"/>
-  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="SupMuxDisplayAuto_methodology_drc_routed.pb"/>
   <File Type="ROUTE-DRC-RPX" Name="SupMuxDisplayAuto_drc_routed.rpx"/>
   <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="SupMuxDisplayAuto_methodology_drc_routed.rpx"/>
   <File Type="PDI-FILE" Name="SupMuxDisplayAuto.pdi"/>
-  <File Type="BOOT-PDI-FILE" Name="SupMuxDisplayAuto_soc.pdi"/>
   <File Type="PL-PDI-FILE" Name="SupMuxDisplayAuto_pld.pdi"/>
   <File Type="RCFI_FILE" Name="SupMuxDisplayAuto.rcfi"/>
   <File Type="CFI_FILE" Name="SupMuxDisplayAuto.cfi"/>
   <File Type="RNPI_FILE" Name="SupMuxDisplayAuto.rnpi"/>
-  <File Type="NPI_FILE" Name="SupMuxDisplayAuto.npi"/>
-  <File Type="RBD_FILE" Name="SupMuxDisplayAuto.rbd"/>
   <File Type="ROUTE-RQS" Name="SupMuxDisplayAuto_routed.rqs"/>
   <File Type="POSTROUTE-PHYSOPT-RQS" Name="SupMuxDisplayAuto_postroute_physopted.rqs"/>
   <File Type="ROUTE-RQS-RPT" Name="route_report_qor_suggestions_0.rpt"/>
@@ -143,7 +143,9 @@
     </Config>
   </FileSet>
   <Strategy Version="1" Minor="2">
-    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2023"/>
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2023">
+      <Desc>Default settings for Implementation.</Desc>
+    </StratHandle>
     <Step Id="init_design"/>
     <Step Id="opt_design"/>
     <Step Id="power_opt_design"/>
@@ -153,6 +155,5 @@
     <Step Id="route_design"/>
     <Step Id="post_route_phys_opt_design"/>
     <Step Id="write_bitstream"/>
-    <Step Id="write_device_image"/>
   </Strategy>
 </GenRun>
