@@ -28,4 +28,5 @@
 * **Ejemplo Maquina de Estados detector de flanco de subida caso dos.** [Ver -> GitHub](https://github.com/ceroma1/VHDL-Basys3/tree/main/MaquinaEstados/MaqEstadoDosA)
 * **Ejemplo Maquina de Estados con entradas sincronas multiplex.** [Ver -> GitHub](https://github.com/ceroma1/VHDL-Basys3/tree/main/MaquinaEstados/MaqEstadoCuatro)
 * **Ejemplo Maquina de Estados detector de secuencia 101.** [Ver -> GitHub](https://github.com/ceroma1/VHDL-Basys3/tree/main/MaquinaEstados/DetectaSucuencia)
+* **Ejemplo Verificación rebotes en entrada mecanica.** [Ver -> GitHub](https://github.com/ceroma1/VHDL-Basys3/tree/main/MaquinaEstados/VerificaUno)
  
