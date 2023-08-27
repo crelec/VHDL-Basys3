@@ -1,0 +1,15 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../VerificaUno.srcs/sources_1/new/BinarioBCD_V2.vhd" \
+"../../../../VerificaUno.srcs/sources_1/new/SuperiorBinarioDecimal.vhd" \
+"../../../../VerificaUno.srcs/sources_1/new/SuperiorVerifica.vhd" \
+"../../../../VerificaUno.srcs/sources_1/new/cuenta1.vhd" \
+"../../../../VerificaUno.srcs/sources_1/new/cuenta2.vhd" \
+"../../../../VerificaUno.srcs/sources_1/new/display.vhd" \
+"../../../../VerificaUno.srcs/sources_1/new/divide1.vhd" \
+"../../../../VerificaUno.srcs/sources_1/new/mux4a1.vhd" \
+"../../../../VerificaUno.srcs/sources_1/new/negacion.vhd" \
+"../../../../VerificaUno.srcs/sim_1/new/Tes0.vhd" \
+
+# Do not sort compile order
+nosort

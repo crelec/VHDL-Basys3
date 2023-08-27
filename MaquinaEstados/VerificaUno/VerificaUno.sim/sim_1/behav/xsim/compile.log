@@ -1,0 +1,18 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Repo-Lenovo/VHDL-Basys3/MaquinaEstados/VerificaUno/VerificaUno.srcs/sources_1/new/BinarioBCD_V2.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'BinarioBCD_V2'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Repo-Lenovo/VHDL-Basys3/MaquinaEstados/VerificaUno/VerificaUno.srcs/sources_1/new/SuperiorBinarioDecimal.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'SuperiorBinarioDecimal'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Repo-Lenovo/VHDL-Basys3/MaquinaEstados/VerificaUno/VerificaUno.srcs/sources_1/new/SuperiorVerifica.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'SuperiorVerifica'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Repo-Lenovo/VHDL-Basys3/MaquinaEstados/VerificaUno/VerificaUno.srcs/sources_1/new/cuenta1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'cuenta1'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Repo-Lenovo/VHDL-Basys3/MaquinaEstados/VerificaUno/VerificaUno.srcs/sources_1/new/display.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'display'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Repo-Lenovo/VHDL-Basys3/MaquinaEstados/VerificaUno/VerificaUno.srcs/sources_1/new/divide1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'divide1'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Repo-Lenovo/VHDL-Basys3/MaquinaEstados/VerificaUno/VerificaUno.srcs/sources_1/new/mux4a1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'mux4a1'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Repo-Lenovo/VHDL-Basys3/MaquinaEstados/VerificaUno/VerificaUno.srcs/sources_1/new/negacion.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'negacion'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Repo-Lenovo/VHDL-Basys3/MaquinaEstados/VerificaUno/VerificaUno.srcs/sim_1/new/Tes0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Tes0'
