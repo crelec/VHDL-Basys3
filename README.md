@@ -20,3 +20,12 @@
 * **Ejemplo Mostar mensaje fijo Publick.** [Ver -> GitHub](https://github.com/ceroma1/VHDL-Basys3/tree/main/Secuenciales/publick7seg)
 * **Ejemplo Multiplexación de mensajes fijos.** [Ver -> GitHub](https://github.com/ceroma1/VHDL-Basys3/tree/main/Secuenciales/MuxPublick)
 * **Ejemplo desplazamiento de mensaje fijo.** [Ver -> GitHub](https://github.com/ceroma1/VHDL-Basys3/tree/main/Secuenciales/PublickDesplaza)
+
+## **Maquinas de Estado.**
+* **Ejemplo Maquina de Estados sin entradas externas caso uno: Contador más circuito combinacional.** [Ver -> GitHub](https://github.com/ceroma1/VHDL-Basys3/tree/main/MaquinaEstados/MaqEstadoUno)
+* **Ejemplo Maquina de Estados sin entradas externas caso unoA: Uso plantilla maquina de estados tipo Moore.** [Ver -> GitHub](https://github.com/ceroma1/VHDL-Basys3/tree/main/MaquinaEstados/MaqEstadoUnoA)
+* **Ejemplo Maquina de Estados detector de flanco de subida caso uno.** [Ver -> GitHub](https://github.com/ceroma1/VHDL-Basys3/tree/main/MaquinaEstados/MaqEstadoDos)
+* **Ejemplo Maquina de Estados detector de flanco de subida caso dos.** [Ver -> GitHub](https://github.com/ceroma1/VHDL-Basys3/tree/main/MaquinaEstados/MaqEstadoDosA)
+* **Ejemplo Maquina de Estados con entradas sincronas multiplex.** [Ver -> GitHub](https://github.com/ceroma1/VHDL-Basys3/tree/main/MaquinaEstados/MaqEstadoCuatro)
+* **Ejemplo Maquina de Estados detector de secuencia 101.** [Ver -> GitHub](https://github.com/ceroma1/VHDL-Basys3/tree/main/MaquinaEstados/DetectaSucuencia)
+ 
