@@ -1,0 +1,9 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../ReboteTemporizado.srcs/sources_1/new/Maq_estadoReb.vhd" \
+"../../../../ReboteTemporizado.srcs/sources_1/new/SupReboteTemporizado.vhd" \
+"../../../../ReboteTemporizado.srcs/sources_1/new/TempReb.vhd" \
+"../../../../ReboteTemporizado.srcs/sim_1/new/Tes.vhd" \
+
+# Do not sort compile order
+nosort

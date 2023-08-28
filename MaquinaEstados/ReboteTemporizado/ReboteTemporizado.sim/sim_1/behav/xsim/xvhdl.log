@@ -1,0 +1,8 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Repo-Lenovo/VHDL-Basys3/MaquinaEstados/ReboteTemporizado/ReboteTemporizado.srcs/sources_1/new/Maq_estadoReb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Maq_estadoReb'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Repo-Lenovo/VHDL-Basys3/MaquinaEstados/ReboteTemporizado/ReboteTemporizado.srcs/sources_1/new/SupReboteTemporizado.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'SupReboteTemporizado'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Repo-Lenovo/VHDL-Basys3/MaquinaEstados/ReboteTemporizado/ReboteTemporizado.srcs/sources_1/new/TempReb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'TempReb'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Repo-Lenovo/VHDL-Basys3/MaquinaEstados/ReboteTemporizado/ReboteTemporizado.srcs/sim_1/new/Tes.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'Tes'
