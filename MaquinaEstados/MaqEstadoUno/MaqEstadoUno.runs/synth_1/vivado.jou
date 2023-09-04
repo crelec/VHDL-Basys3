@@ -3,8 +3,8 @@
 # SW Build 3900603 on Fri Jun 16 19:31:24 MDT 2023
 # IP Build 3900379 on Sat Jun 17 05:28:05 MDT 2023
 # SharedData Build 3899622 on Fri Jun 16 03:34:24 MDT 2023
-# Start of session at: Fri Aug 25 09:48:25 2023
-# Process ID: 10064
+# Start of session at: Mon Sep  4 17:14:20 2023
+# Process ID: 15296
 # Current directory: D:/Repo-Lenovo/VHDL-Basys3/MaquinaEstados/MaqEstadoUno/MaqEstadoUno.runs/synth_1
 # Command line: vivado.exe -log Superior.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Superior.tcl
 # Log file: D:/Repo-Lenovo/VHDL-Basys3/MaquinaEstados/MaqEstadoUno/MaqEstadoUno.runs/synth_1/Superior.vds

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="synth_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1692974902" LaunchIncrCheckpoint="$PSRCDIR/utils_1/imports/synth_1/Superior.dcp">
+<GenRun Id="synth_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1693865656" LaunchIncrCheckpoint="$PSRCDIR/utils_1/imports/synth_1/Superior.dcp">
   <File Type="PA-TCL" Name="Superior.tcl"/>
   <File Type="RDS-PROPCONSTRS" Name="Superior_drc_synth.rpt"/>
   <File Type="REPORTS-TCL" Name="Superior_reports.tcl"/>
@@ -74,9 +74,7 @@
     </Config>
   </FileSet>
   <Strategy Version="1" Minor="2">
-    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2023">
-      <Desc>Vivado Synthesis Defaults</Desc>
-    </StratHandle>
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2023"/>
     <Step Id="synth_design"/>
   </Strategy>
 </GenRun>

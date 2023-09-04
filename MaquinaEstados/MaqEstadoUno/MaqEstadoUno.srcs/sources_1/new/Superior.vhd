@@ -28,7 +28,7 @@ component CombinaSalida is
 end component;
 
 component ModuloDisplay is
-    Port ( DatoIn : in  STD_LOGIC_VECTOR (3 downto 0);
+    Port ( DatoIn : in  STD_LOGIC_VECTOR (2 downto 0);
 			  anodos : out  STD_LOGIC_VECTOR (3 downto 0);
            segmento : out  STD_LOGIC_VECTOR (6 downto 0));
 end component;
@@ -40,5 +40,5 @@ begin
 u0:divide port map(clk=>clk,reset=>reset,Foutdivide=>sg1);
 u1:cuenta port map(clk=>sg1,reset=>reset,salidacuenta=>sg2);
 u2:combinasalida port map(inq=>sg2,Foutq=>sg3);
-u3:modulodisplay port map(datoin(3)=>'0',datoin(2 downto 0)=>sg3,anodos=>anodos,segmento=>segmento);
+u3:modulodisplay port map(datoin=>sg3,anodos=>anodos,segmento=>segmento);
 end Behavioral;

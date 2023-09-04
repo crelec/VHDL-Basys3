@@ -1,7 +1,7 @@
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
 ---------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2023.1.1 (win64) Build 3900603 Fri Jun 16 19:31:24 MDT 2023
-| Date         : Fri Aug 25 09:50:05 2023
+| Date         : Mon Sep  4 17:16:02 2023
 | Host         : LenovoCesar running 64-bit major release  (build 9200)
 | Command      : report_control_sets -verbose -file Superior_control_sets_placed.rpt
 | Design       : Superior
@@ -73,8 +73,8 @@ Table of Contents
 +----------------+---------------+------------------+------------------+----------------+--------------+
 |  Clock Signal  | Enable Signal | Set/Reset Signal | Slice Load Count | Bel Load Count | Bels / Slice |
 +----------------+---------------+------------------+------------------+----------------+--------------+
-|  u0/CLK        |               | reset_IBUF       |                2 |              3 |         1.50 |
-|  clk_IBUF_BUFG |               | reset_IBUF       |                7 |             28 |         4.00 |
+|  u0/CLK        |               | reset_IBUF       |                1 |              3 |         3.00 |
+|  clk_IBUF_BUFG |               | reset_IBUF       |                8 |             28 |         3.50 |
 +----------------+---------------+------------------+------------------+----------------+--------------+
 
 
