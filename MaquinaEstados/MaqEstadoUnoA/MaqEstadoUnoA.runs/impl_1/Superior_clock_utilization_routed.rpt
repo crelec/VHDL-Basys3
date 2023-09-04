@@ -1,7 +1,7 @@
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
 ---------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2023.1.1 (win64) Build 3900603 Fri Jun 16 19:31:24 MDT 2023
-| Date         : Fri Aug 25 10:26:00 2023
+| Date         : Mon Sep  4 17:26:48 2023
 | Host         : LenovoCesar running 64-bit major release  (build 9200)
 | Command      : report_clock_utilization -file Superior_clock_utilization_routed.rpt
 | Design       : Superior
@@ -69,7 +69,7 @@ Table of Contents
 +----------+-----------------+------------+------------------+--------------+-------------+-----------------+--------------+-------+--------------+--------+
 | Local Id | Driver Type/Pin | Constraint | Site/BEL         | Clock Region | Clock Loads | Non-Clock Loads | Clock Period | Clock | Driver Pin   | Net    |
 +----------+-----------------+------------+------------------+--------------+-------------+-----------------+--------------+-------+--------------+--------+
-| 0        | FDCE/Q          | None       | SLICE_X62Y19/AFF | X1Y0         |           8 |               1 |              |       | u0/aux_reg/Q | u0/CLK |
+| 0        | FDCE/Q          | None       | SLICE_X61Y19/AFF | X1Y0         |           8 |               1 |              |       | u0/aux_reg/Q | u0/CLK |
 +----------+-----------------+------------+------------------+--------------+-------------+-----------------+--------------+-------+--------------+--------+
 * Local Clocks in this context represents only clocks driven by non-global buffers
 ** Clock Loads column represents cell count of net connects that connect to a clock pin. Internal cell leaf pins are not considered
