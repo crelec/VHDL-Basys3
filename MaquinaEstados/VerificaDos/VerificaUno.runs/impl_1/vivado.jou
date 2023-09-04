@@ -3,8 +3,8 @@
 # SW Build 3900603 on Fri Jun 16 19:31:24 MDT 2023
 # IP Build 3900379 on Sat Jun 17 05:28:05 MDT 2023
 # SharedData Build 3899622 on Fri Jun 16 03:34:24 MDT 2023
-# Start of session at: Sun Aug 27 09:13:11 2023
-# Process ID: 12964
+# Start of session at: Mon Sep  4 17:44:35 2023
+# Process ID: 14892
 # Current directory: D:/Repo-Lenovo/VHDL-Basys3/MaquinaEstados/VerificaDos/VerificaUno.runs/impl_1
 # Command line: vivado.exe -log SuperiorVerifica.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source SuperiorVerifica.tcl -notrace
 # Log file: D:/Repo-Lenovo/VHDL-Basys3/MaquinaEstados/VerificaDos/VerificaUno.runs/impl_1/SuperiorVerifica.vdi
