@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1694256559">
+  <File Type="ROUTE-PWR" Name="Transmisor_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="Transmisor.tcl"/>
+  <File Type="ROUTE-PWR-SUM" Name="Transmisor_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="Transmisor_reports.tcl"/>
+  <File Type="BITSTR-MSK" Name="Transmisor.msk"/>
+  <File Type="ROUTE-CLK" Name="Transmisor_clock_utilization_routed.rpt"/>
+  <File Type="RDI-RDI" Name="Transmisor.vdi"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="Transmisor_bus_skew_postroute_physopted.pb"/>
+  <File Type="BG-BIT" Name="Transmisor.bit"/>
+  <File Type="BG-DRC" Name="Transmisor.drc"/>
+  <File Type="BG-BGN" Name="Transmisor.bgn"/>
+  <File Type="BG-BIN" Name="Transmisor.bin"/>
+  <File Type="BITSTR-RBT" Name="Transmisor.rbt"/>
+  <File Type="BITSTR-NKY" Name="Transmisor.nky"/>
+  <File Type="BITSTR-BMM" Name="Transmisor_bd.bmm"/>
+  <File Type="BITSTR-MMI" Name="Transmisor.mmi"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="Transmisor_methodology_drc_routed.rpt"/>
+  <File Type="BITSTR-SYSDEF" Name="Transmisor.sysdef"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="Transmisor_methodology_drc_routed.pb"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="Transmisor.ltx"/>
+  <File Type="BOOT-PDI-FILE" Name="Transmisor_soc.pdi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="NPI_FILE" Name="Transmisor.npi"/>
+  <File Type="OPT-DRC" Name="Transmisor_drc_opted.rpt"/>
+  <File Type="RBD_FILE" Name="Transmisor.rbd"/>
+  <File Type="OPT-HWDEF" Name="Transmisor.hwdef"/>
+  <File Type="PLACE-IO" Name="Transmisor_io_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="Transmisor_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="Transmisor_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="Transmisor_control_sets_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="Transmisor_incremental_reuse_pre_placed.rpt"/>
+  <File Type="ROUTE-DRC" Name="Transmisor_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="Transmisor_drc_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="Transmisor_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="Transmisor_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="Transmisor_route_status.pb"/>
+  <File Type="ROUTE-DCP" Name="Transmisor_routed.dcp"/>
+  <File Type="ROUTE-ERROR-DCP" Name="Transmisor_routed_error.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="Transmisor_routed_bb.dcp"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="Transmisor_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="Transmisor_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="Transmisor_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="Transmisor_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="Transmisor_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="Transmisor_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="Transmisor_bus_skew_routed.rpx"/>
+  <File Type="OPT-DCP" Name="Transmisor_opt.dcp"/>
+  <File Type="PLACE-DCP" Name="Transmisor_placed.dcp"/>
+  <File Type="PWROPT-DCP" Name="Transmisor_pwropt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="Transmisor_postplace_pwropt.dcp"/>
+  <File Type="PHYSOPT-DCP" Name="Transmisor_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="Transmisor_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="Transmisor_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="Transmisor_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="Transmisor_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="Transmisor_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="Transmisor_bus_skew_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="Transmisor_bus_skew_postroute_physopted.rpx"/>
+  <File Type="ROUTE-DRC-RPX" Name="Transmisor_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="Transmisor_methodology_drc_routed.rpx"/>
+  <File Type="PDI-FILE" Name="Transmisor.pdi"/>
+  <File Type="PL-PDI-FILE" Name="Transmisor_pld.pdi"/>
+  <File Type="RCFI_FILE" Name="Transmisor.rcfi"/>
+  <File Type="CFI_FILE" Name="Transmisor.cfi"/>
+  <File Type="RNPI_FILE" Name="Transmisor.rnpi"/>
+  <File Type="ROUTE-RQS" Name="Transmisor_routed.rqs"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS" Name="Transmisor_postroute_physopted.rqs"/>
+  <File Type="ROUTE-RQS-RPT" Name="route_report_qor_suggestions_0.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS-RPT" Name="postroute_physopt_report_qor_suggestions_0.rpt"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/Baudios_tx.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/mod_tx.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Transmisor.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="Transmisor"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1" RelGenDir="$PGENDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/pines.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1" RelGenDir="$PGENDIR/utils_1">
+    <Filter Type="Utils"/>
+    <File Path="$PSRCDIR/utils_1/imports/synth_1/Transmisor.dcp">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedInSteps" Val="synth_1"/>
+        <Attr Name="AutoDcp" Val="1"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2023"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+    <Step Id="write_device_image"/>
+  </Strategy>
+</GenRun>
