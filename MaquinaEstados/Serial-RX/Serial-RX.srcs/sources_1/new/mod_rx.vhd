@@ -22,7 +22,7 @@ begin
  
  process(clk,reset)
  begin
-    if reset='0' then
+    if reset='1' then
        state_reg <= idle;
        s_reg <= (others=>'0');
        n_reg <= (others=>'0');

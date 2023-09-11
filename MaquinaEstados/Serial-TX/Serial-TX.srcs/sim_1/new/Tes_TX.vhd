@@ -38,9 +38,9 @@ end process;
 -- Stimulus process
 sig_reset:process
 begin
-reset<='0';
-wait for 6 ns;
 reset<='1';
+wait for 6 ns;
+reset<='0';
 wait;
 end process;
 

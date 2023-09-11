@@ -17,7 +17,7 @@ begin
 
 process(reset,clk)
 begin
-if (reset = '0') then
+if (reset = '1') then
     s_q <= "00000000";
 elsif clk' event and clk ='1' then
   if (ce='1') then

@@ -1,7 +1,7 @@
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
 ---------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2023.1.1 (win64) Build 3900603 Fri Jun 16 19:31:24 MDT 2023
-| Date         : Sat Sep  9 10:12:35 2023
+| Date         : Mon Sep 11 10:17:27 2023
 | Host         : LenovoCesar running 64-bit major release  (build 9200)
 | Command      : report_utilization -file Receptor_utilization_synth.rpt -pb Receptor_utilization_synth.pb
 | Design       : Receptor
@@ -31,8 +31,8 @@ Table of Contents
 +-------------------------+------+-------+------------+-----------+-------+
 |        Site Type        | Used | Fixed | Prohibited | Available | Util% |
 +-------------------------+------+-------+------------+-----------+-------+
-| Slice LUTs*             |   22 |     0 |          0 |     20800 |  0.11 |
-|   LUT as Logic          |   22 |     0 |          0 |     20800 |  0.11 |
+| Slice LUTs*             |   21 |     0 |          0 |     20800 |  0.10 |
+|   LUT as Logic          |   21 |     0 |          0 |     20800 |  0.10 |
 |   LUT as Memory         |    0 |     0 |          0 |      9600 |  0.00 |
 | Slice Registers         |   25 |     0 |          0 |     41600 |  0.06 |
 |   Register as Flip Flop |   24 |     0 |          0 |     41600 |  0.06 |
@@ -159,7 +159,6 @@ Warning! LUT value is adjusted to account for LUT combining.
 | IBUF     |    3 |                  IO |
 | LUT3     |    2 |                 LUT |
 | LUT2     |    1 |                 LUT |
-| LUT1     |    1 |                 LUT |
 | LDCE     |    1 |        Flop & Latch |
 | BUFG     |    1 |               Clock |
 +----------+------+---------------------+

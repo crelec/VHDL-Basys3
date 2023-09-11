@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1694272365">
+<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1694445385">
   <File Type="ROUTE-PWR" Name="Receptor_power_routed.rpt"/>
   <File Type="PA-TCL" Name="Receptor.tcl"/>
   <File Type="ROUTE-PWR-SUM" Name="Receptor_power_summary_routed.pb"/>
@@ -18,14 +18,10 @@
   <File Type="BITSTR-MMI" Name="Receptor.mmi"/>
   <File Type="ROUTE-METHODOLOGY-DRC" Name="Receptor_methodology_drc_routed.rpt"/>
   <File Type="BITSTR-SYSDEF" Name="Receptor.sysdef"/>
-  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="Receptor_methodology_drc_routed.pb"/>
   <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
   <File Type="BITSTR-LTX" Name="Receptor.ltx"/>
-  <File Type="BOOT-PDI-FILE" Name="Receptor_soc.pdi"/>
   <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
-  <File Type="NPI_FILE" Name="Receptor.npi"/>
   <File Type="OPT-DRC" Name="Receptor_drc_opted.rpt"/>
-  <File Type="RBD_FILE" Name="Receptor.rbd"/>
   <File Type="OPT-HWDEF" Name="Receptor.hwdef"/>
   <File Type="PLACE-IO" Name="Receptor_io_placed.rpt"/>
   <File Type="PLACE-UTIL" Name="Receptor_utilization_placed.rpt"/>
@@ -59,13 +55,17 @@
   <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="Receptor_timing_summary_postroute_physopted.rpx"/>
   <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="Receptor_bus_skew_postroute_physopted.rpt"/>
   <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="Receptor_bus_skew_postroute_physopted.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="Receptor_methodology_drc_routed.pb"/>
   <File Type="ROUTE-DRC-RPX" Name="Receptor_drc_routed.rpx"/>
   <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="Receptor_methodology_drc_routed.rpx"/>
   <File Type="PDI-FILE" Name="Receptor.pdi"/>
+  <File Type="BOOT-PDI-FILE" Name="Receptor_soc.pdi"/>
   <File Type="PL-PDI-FILE" Name="Receptor_pld.pdi"/>
   <File Type="RCFI_FILE" Name="Receptor.rcfi"/>
   <File Type="CFI_FILE" Name="Receptor.cfi"/>
   <File Type="RNPI_FILE" Name="Receptor.rnpi"/>
+  <File Type="NPI_FILE" Name="Receptor.npi"/>
+  <File Type="RBD_FILE" Name="Receptor.rbd"/>
   <File Type="ROUTE-RQS" Name="Receptor_routed.rqs"/>
   <File Type="POSTROUTE-PHYSOPT-RQS" Name="Receptor_postroute_physopted.rqs"/>
   <File Type="ROUTE-RQS-RPT" Name="route_report_qor_suggestions_0.rpt"/>
@@ -116,6 +116,14 @@
   </FileSet>
   <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1" RelGenDir="$PGENDIR/utils_1">
     <Filter Type="Utils"/>
+    <File Path="$PSRCDIR/utils_1/imports/synth_1/Receptor.dcp">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedInSteps" Val="synth_1"/>
+        <Attr Name="AutoDcp" Val="1"/>
+      </FileInfo>
+    </File>
     <Config>
       <Option Name="TopAutoSet" Val="TRUE"/>
     </Config>
@@ -131,6 +139,5 @@
     <Step Id="route_design"/>
     <Step Id="post_route_phys_opt_design"/>
     <Step Id="write_bitstream"/>
-    <Step Id="write_device_image"/>
   </Strategy>
 </GenRun>
