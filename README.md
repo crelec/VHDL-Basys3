@@ -32,5 +32,7 @@
 * **Ejemplo Verificación presencia de rebotes en entrada mecanica.** [Ver -> GitHub](https://github.com/ceroma1/VHDL-Basys3/tree/main/MaquinaEstados/VerificaUno)
 * **Ejemplo Verificación eliminación de rebotes en entrada mecanica (Solución por detección de flnco de subida.).** [Ver -> GitHub](https://github.com/ceroma1/VHDL-Basys3/tree/main/MaquinaEstados/VerificaDos)
 * **Ejemplo Verificación eliminación de rebotes en entrada mecanica (Solución con maquina de estados temporizada).** [Ver -> GitHub](https://github.com/ceroma1/VHDL-Basys3/tree/main/MaquinaEstados/VerificaTres)
+* **Ejemplo Transmisor serial rs-232 a 115200bps.** [Ver -> GitHub](https://github.com/ceroma1/VHDL-Basys3/tree/main/MaquinaEstados/Serial-TX)
+* **Ejemplo Receptor serial rs-232 a 115200bps.** [Ver -> GitHub](https://github.com/ceroma1/VHDL-Basys3/tree/main/MaquinaEstados/Serial-RX)
 
 ![image](https://github.com/ceroma1/VHDL-Basys3/assets/49888643/a87a2e6d-104a-49c5-a9e1-631fd0fc7bea)
