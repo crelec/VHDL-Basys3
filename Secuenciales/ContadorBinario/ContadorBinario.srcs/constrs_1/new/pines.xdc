@@ -11,3 +11,6 @@ set_property -dict { PACKAGE_PIN U14   IOSTANDARD LVCMOS33 } [get_ports {FoutCue
 set_property -dict { PACKAGE_PIN V14   IOSTANDARD LVCMOS33 } [get_ports {FoutCuenta[7]}]
 
 set_property -dict { PACKAGE_PIN U18   IOSTANDARD LVCMOS33 } [get_ports reset]
+
+set_property CONFIG_VOLTAGE 3.3 [current_design]
+set_property CFGBVS VCCO [current_design]

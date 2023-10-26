@@ -72,7 +72,6 @@ proc create_report { reportName command } {
 OPTRACE "synth_1" START { ROLLUP_AUTO }
 set_param checkpoint.writeSynthRtdsInDcp 1
 set_param chipscope.maxJobs 2
-set_param synth.incrementalSynthesisCache C:/Users/cerom/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-14924-LenovoCesar/incrSyn
 set_param xicom.use_bs_reader 1
 set_msg_config -id {Synth 8-256} -limit 10000
 set_msg_config -id {Synth 8-638} -limit 10000
@@ -92,8 +91,8 @@ set_property ip_cache_permissions {read write} [current_project]
 OPTRACE "Creating in-memory project" END { }
 OPTRACE "Adding files" START { }
 read_vhdl -library xil_defaultlib {
-  D:/Repo-Lenovo/VHDL-Basys3/Combinacionales/BinarioBCD_V2/BinarioBCD_V2.srcs/sources_1/new/Bin_BCD2.vhd
-  D:/Repo-Lenovo/VHDL-Basys3/Combinacionales/Display7segmento/Display7segmento.srcs/sources_1/new/ModuloDisplay.vhd
+  D:/Repo-Lenovo/VHDL-Basys3/Secuenciales/MuxDisplayAuto/MuxDisplayAuto.srcs/sources_1/imports/Combinacionales/BinarioBCD_V2/BinarioBCD_V2.srcs/sources_1/new/Bin_BCD2.vhd
+  D:/Repo-Lenovo/VHDL-Basys3/Secuenciales/MuxDisplayAuto/MuxDisplayAuto.srcs/sources_1/imports/Combinacionales/Display7segmento/Display7segmento.srcs/sources_1/new/ModuloDisplay.vhd
   D:/Repo-Lenovo/VHDL-Basys3/Secuenciales/MuxDisplayAuto/MuxDisplayAuto.srcs/sources_1/new/Mux4a1.vhd
   D:/Repo-Lenovo/VHDL-Basys3/Secuenciales/MuxDisplayAuto/MuxDisplayAuto.srcs/sources_1/new/cuenta1.vhd
   D:/Repo-Lenovo/VHDL-Basys3/Secuenciales/MuxDisplayAuto/MuxDisplayAuto.srcs/sources_1/new/divide1.vhd
@@ -113,6 +112,8 @@ read_xdc D:/Repo-Lenovo/VHDL-Basys3/Secuenciales/MuxDisplayAuto/MuxDisplayAuto.s
 set_property used_in_implementation false [get_files D:/Repo-Lenovo/VHDL-Basys3/Secuenciales/MuxDisplayAuto/MuxDisplayAuto.srcs/constrs_1/new/pines.xdc]
 
 set_param ips.enableIPCacheLiteLoad 1
+
+read_checkpoint -auto_incremental -incremental D:/Repo-Lenovo/VHDL-Basys3/Secuenciales/MuxDisplayAuto/MuxDisplayAuto.srcs/utils_1/imports/synth_1/SupMuxDisplayAuto.dcp
 close [open __synthesis_is_running__ w]
 
 OPTRACE "synth_design" START { }

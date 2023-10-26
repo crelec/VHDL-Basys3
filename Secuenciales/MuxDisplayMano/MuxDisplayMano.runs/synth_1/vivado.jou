@@ -3,8 +3,8 @@
 # SW Build 3900603 on Fri Jun 16 19:31:24 MDT 2023
 # IP Build 3900379 on Sat Jun 17 05:28:05 MDT 2023
 # SharedData Build 3899622 on Fri Jun 16 03:34:24 MDT 2023
-# Start of session at: Sat Jul 15 11:16:46 2023
-# Process ID: 7204
+# Start of session at: Thu Oct 26 09:13:03 2023
+# Process ID: 14624
 # Current directory: D:/Repo-Lenovo/VHDL-Basys3/Secuenciales/MuxDisplayMano/MuxDisplayMano.runs/synth_1
 # Command line: vivado.exe -log TopMuxDisplay.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source TopMuxDisplay.tcl
 # Log file: D:/Repo-Lenovo/VHDL-Basys3/Secuenciales/MuxDisplayMano/MuxDisplayMano.runs/synth_1/TopMuxDisplay.vds

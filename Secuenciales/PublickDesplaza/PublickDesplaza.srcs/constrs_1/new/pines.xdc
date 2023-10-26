@@ -17,3 +17,6 @@ set_property -dict { PACKAGE_PIN V4   IOSTANDARD LVCMOS33 } [get_ports {anodos[2
 set_property -dict { PACKAGE_PIN W4   IOSTANDARD LVCMOS33 } [get_ports {anodos[3]}]
 
 set_property -dict { PACKAGE_PIN U18   IOSTANDARD LVCMOS33 } [get_ports clear]
+
+set_property CONFIG_VOLTAGE 3.3 [current_design]
+set_property CFGBVS VCCO [current_design]

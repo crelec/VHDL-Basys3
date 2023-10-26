@@ -72,7 +72,6 @@ proc create_report { reportName command } {
 OPTRACE "synth_1" START { ROLLUP_AUTO }
 set_param checkpoint.writeSynthRtdsInDcp 1
 set_param chipscope.maxJobs 2
-set_param synth.incrementalSynthesisCache C:/Users/cerom/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-4956-LenovoCesar/incrSyn
 set_param xicom.use_bs_reader 1
 set_msg_config -id {Synth 8-256} -limit 10000
 set_msg_config -id {Synth 8-638} -limit 10000
@@ -110,6 +109,8 @@ read_xdc D:/Repo-Lenovo/VHDL-Basys3/Secuenciales/MuxDisplayMano/MuxDisplayMano.s
 set_property used_in_implementation false [get_files D:/Repo-Lenovo/VHDL-Basys3/Secuenciales/MuxDisplayMano/MuxDisplayMano.srcs/constrs_1/new/Pines.xdc]
 
 set_param ips.enableIPCacheLiteLoad 1
+
+read_checkpoint -auto_incremental -incremental D:/Repo-Lenovo/VHDL-Basys3/Secuenciales/MuxDisplayMano/MuxDisplayMano.srcs/utils_1/imports/synth_1/TopMuxDisplay.dcp
 close [open __synthesis_is_running__ w]
 
 OPTRACE "synth_design" START { }
