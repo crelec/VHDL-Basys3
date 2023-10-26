@@ -1,71 +1,85 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1689633613">
+<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1698330961">
   <File Type="ROUTE-PWR" Name="SupPublick_power_routed.rpt"/>
   <File Type="PA-TCL" Name="SupPublick.tcl"/>
   <File Type="ROUTE-PWR-SUM" Name="SupPublick_power_summary_routed.pb"/>
   <File Type="REPORTS-TCL" Name="SupPublick_reports.tcl"/>
-  <File Type="BITSTR-MSK" Name="SupPublick.msk"/>
-  <File Type="ROUTE-CLK" Name="SupPublick_clock_utilization_routed.rpt"/>
-  <File Type="RDI-RDI" Name="SupPublick.vdi"/>
-  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="SupPublick_bus_skew_postroute_physopted.pb"/>
-  <File Type="BG-BIT" Name="SupPublick.bit"/>
-  <File Type="BG-DRC" Name="SupPublick.drc"/>
-  <File Type="BG-BGN" Name="SupPublick.bgn"/>
-  <File Type="BG-BIN" Name="SupPublick.bin"/>
-  <File Type="BITSTR-RBT" Name="SupPublick.rbt"/>
-  <File Type="BITSTR-NKY" Name="SupPublick.nky"/>
-  <File Type="BITSTR-BMM" Name="SupPublick_bd.bmm"/>
+  <File Type="OPT-RQA-PB" Name="SupPublick_rqa_opted.pb"/>
   <File Type="BITSTR-MMI" Name="SupPublick.mmi"/>
-  <File Type="ROUTE-METHODOLOGY-DRC" Name="SupPublick_methodology_drc_routed.rpt"/>
-  <File Type="BITSTR-SYSDEF" Name="SupPublick.sysdef"/>
-  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="SupPublick_methodology_drc_routed.pb"/>
-  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
-  <File Type="BITSTR-LTX" Name="SupPublick.ltx"/>
-  <File Type="BOOT-PDI-FILE" Name="SupPublick_soc.pdi"/>
-  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
-  <File Type="NPI_FILE" Name="SupPublick.npi"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="SupPublick_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="SupPublick_timing_summary_init.rpt"/>
+  <File Type="OPT-TIMING" Name="SupPublick_timing_summary_opted.rpt"/>
+  <File Type="OPT-DCP" Name="SupPublick_opt.dcp"/>
   <File Type="OPT-DRC" Name="SupPublick_drc_opted.rpt"/>
-  <File Type="RBD_FILE" Name="SupPublick.rbd"/>
   <File Type="OPT-HWDEF" Name="SupPublick.hwdef"/>
+  <File Type="PWROPT-DCP" Name="SupPublick_pwropt.dcp"/>
+  <File Type="PWROPT-DRC" Name="SupPublick_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="SupPublick_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="SupPublick_placed.dcp"/>
   <File Type="PLACE-IO" Name="SupPublick_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="SupPublick_clock_utilization_placed.rpt"/>
   <File Type="PLACE-UTIL" Name="SupPublick_utilization_placed.rpt"/>
   <File Type="PLACE-UTIL-PB" Name="SupPublick_utilization_placed.pb"/>
   <File Type="PLACE-CTRL" Name="SupPublick_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="SupPublick_incremental_reuse_placed.rpt"/>
   <File Type="PLACE-PRE-SIMILARITY" Name="SupPublick_incremental_reuse_pre_placed.rpt"/>
+  <File Type="BG-BIN" Name="SupPublick.bin"/>
+  <File Type="PLACE-TIMING" Name="SupPublick_timing_summary_placed.rpt"/>
+  <File Type="ROUTE-PWR-RPX" Name="SupPublick_power_routed.rpx"/>
+  <File Type="PLACE-RQA-PB" Name="SupPublick_rqa_placed.pb"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="SupPublick_postplace_pwropt.dcp"/>
+  <File Type="BITSTR-MSK" Name="SupPublick.msk"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="SupPublick_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="SupPublick_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="SupPublick_drc_physopted.rpt"/>
+  <File Type="BITSTR-RBT" Name="SupPublick.rbt"/>
+  <File Type="PHYSOPT-TIMING" Name="SupPublick_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="SupPublick_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="SupPublick_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="SupPublick_routed_bb.dcp"/>
   <File Type="ROUTE-DRC" Name="SupPublick_drc_routed.rpt"/>
   <File Type="ROUTE-DRC-PB" Name="SupPublick_drc_routed.pb"/>
-  <File Type="ROUTE-PWR-RPX" Name="SupPublick_power_routed.rpx"/>
+  <File Type="ROUTE-DRC-RPX" Name="SupPublick_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="SupPublick_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="SupPublick_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="SupPublick_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-RQS-PB" Name="SupPublick_rqs_routed.pb"/>
   <File Type="ROUTE-STATUS" Name="SupPublick_route_status.rpt"/>
   <File Type="ROUTE-STATUS-PB" Name="SupPublick_route_status.pb"/>
-  <File Type="ROUTE-DCP" Name="SupPublick_routed.dcp"/>
-  <File Type="ROUTE-ERROR-DCP" Name="SupPublick_routed_error.dcp"/>
-  <File Type="ROUTE-BLACKBOX-DCP" Name="SupPublick_routed_bb.dcp"/>
   <File Type="ROUTE-TIMINGSUMMARY" Name="SupPublick_timing_summary_routed.rpt"/>
   <File Type="ROUTE-TIMING-PB" Name="SupPublick_timing_summary_routed.pb"/>
   <File Type="ROUTE-TIMING-RPX" Name="SupPublick_timing_summary_routed.rpx"/>
   <File Type="ROUTE-SIMILARITY" Name="SupPublick_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="SupPublick_clock_utilization_routed.rpt"/>
   <File Type="ROUTE-BUS-SKEW" Name="SupPublick_bus_skew_routed.rpt"/>
   <File Type="ROUTE-BUS-SKEW-PB" Name="SupPublick_bus_skew_routed.pb"/>
   <File Type="ROUTE-BUS-SKEW-RPX" Name="SupPublick_bus_skew_routed.rpx"/>
-  <File Type="OPT-DCP" Name="SupPublick_opt.dcp"/>
-  <File Type="PLACE-DCP" Name="SupPublick_placed.dcp"/>
-  <File Type="PWROPT-DCP" Name="SupPublick_pwropt.dcp"/>
-  <File Type="POSTPLACE-PWROPT-DCP" Name="SupPublick_postplace_pwropt.dcp"/>
-  <File Type="PHYSOPT-DCP" Name="SupPublick_physopt.dcp"/>
   <File Type="POSTROUTE-PHYSOPT-DCP" Name="SupPublick_postroute_physopt.dcp"/>
   <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="SupPublick_postroute_physopt_bb.dcp"/>
   <File Type="POSTROUTE-PHYSOPT-TIMING" Name="SupPublick_timing_summary_postroute_physopted.rpt"/>
   <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="SupPublick_timing_summary_postroute_physopted.pb"/>
   <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="SupPublick_timing_summary_postroute_physopted.rpx"/>
   <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="SupPublick_bus_skew_postroute_physopted.rpt"/>
+  <File Type="BG-BIT" Name="SupPublick.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="SupPublick_bus_skew_postroute_physopted.pb"/>
   <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="SupPublick_bus_skew_postroute_physopted.rpx"/>
-  <File Type="ROUTE-DRC-RPX" Name="SupPublick_drc_routed.rpx"/>
-  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="SupPublick_methodology_drc_routed.rpx"/>
+  <File Type="BITSTR-NKY" Name="SupPublick.nky"/>
+  <File Type="BITSTR-BMM" Name="SupPublick_bd.bmm"/>
   <File Type="PDI-FILE" Name="SupPublick.pdi"/>
+  <File Type="BOOT-PDI-FILE" Name="SupPublick_soc.pdi"/>
   <File Type="PL-PDI-FILE" Name="SupPublick_pld.pdi"/>
   <File Type="RCFI_FILE" Name="SupPublick.rcfi"/>
   <File Type="CFI_FILE" Name="SupPublick.cfi"/>
   <File Type="RNPI_FILE" Name="SupPublick.rnpi"/>
+  <File Type="NPI_FILE" Name="SupPublick.npi"/>
+  <File Type="RBD_FILE" Name="SupPublick.rbd"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="SupPublick.ltx"/>
+  <File Type="BITSTR-SYSDEF" Name="SupPublick.sysdef"/>
+  <File Type="BG-BGN" Name="SupPublick.bgn"/>
+  <File Type="BG-DRC" Name="SupPublick.drc"/>
+  <File Type="RDI-RDI" Name="SupPublick.vdi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
   <File Type="ROUTE-RQS" Name="SupPublick_routed.rqs"/>
   <File Type="POSTROUTE-PHYSOPT-RQS" Name="SupPublick_postroute_physopted.rqs"/>
   <File Type="ROUTE-RQS-RPT" Name="route_report_qor_suggestions_0.rpt"/>
@@ -122,14 +136,20 @@
   </FileSet>
   <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1" RelGenDir="$PGENDIR/utils_1">
     <Filter Type="Utils"/>
+    <File Path="$PSRCDIR/utils_1/imports/synth_1/SupPublick.dcp">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedInSteps" Val="synth_1"/>
+        <Attr Name="AutoDcp" Val="1"/>
+      </FileInfo>
+    </File>
     <Config>
       <Option Name="TopAutoSet" Val="TRUE"/>
     </Config>
   </FileSet>
   <Strategy Version="1" Minor="2">
-    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2023">
-      <Desc>Default settings for Implementation.</Desc>
-    </StratHandle>
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2023"/>
     <Step Id="init_design"/>
     <Step Id="opt_design"/>
     <Step Id="power_opt_design"/>

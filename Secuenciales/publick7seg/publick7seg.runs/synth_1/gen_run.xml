@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="synth_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1689633613">
+<GenRun Id="synth_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1698330961" LaunchIncrCheckpoint="$PSRCDIR/utils_1/imports/synth_1/SupPublick.dcp">
   <File Type="PA-TCL" Name="SupPublick.tcl"/>
+  <File Type="RDS-PROPCONSTRS" Name="SupPublick_drc_synth.rpt"/>
   <File Type="REPORTS-TCL" Name="SupPublick_reports.tcl"/>
   <File Type="RDS-RDS" Name="SupPublick.vds"/>
   <File Type="RDS-UTIL" Name="SupPublick_utilization_synth.rpt"/>
   <File Type="RDS-UTIL-PB" Name="SupPublick_utilization_synth.pb"/>
   <File Type="RDS-DCP" Name="SupPublick.dcp"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="SupPublick_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="SupPublick_timing_summary_synth.pb"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
     <Filter Type="Srcs"/>
     <File Path="$PSRCDIR/sources_1/new/Mux4a1.vhd">
@@ -58,6 +61,14 @@
   </FileSet>
   <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1" RelGenDir="$PGENDIR/utils_1">
     <Filter Type="Utils"/>
+    <File Path="$PSRCDIR/utils_1/imports/synth_1/SupPublick.dcp">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedInSteps" Val="synth_1"/>
+        <Attr Name="AutoDcp" Val="1"/>
+      </FileInfo>
+    </File>
     <Config>
       <Option Name="TopAutoSet" Val="TRUE"/>
     </Config>

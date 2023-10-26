@@ -4,7 +4,7 @@
 
 set TIME_start [clock seconds] 
 namespace eval ::optrace {
-  variable script "D:/Repo-Lenovo/VHDL-Basys3/Combinacionales/publick7seg/publick7seg.runs/synth_1/SupPublick.tcl"
+  variable script "D:/Repo-Lenovo/VHDL-Basys3/Secuenciales/publick7seg/publick7seg.runs/synth_1/SupPublick.tcl"
   variable category "vivado_synth"
 }
 
@@ -70,33 +70,27 @@ proc create_report { reportName command } {
   }
 }
 OPTRACE "synth_1" START { ROLLUP_AUTO }
-set_param checkpoint.writeSynthRtdsInDcp 1
-set_param chipscope.maxJobs 2
-set_param synth.incrementalSynthesisCache C:/Users/cerom/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-14924-LenovoCesar/incrSyn
-set_param xicom.use_bs_reader 1
-set_msg_config -id {Synth 8-256} -limit 10000
-set_msg_config -id {Synth 8-638} -limit 10000
 OPTRACE "Creating in-memory project" START { }
 create_project -in_memory -part xc7a35tcpg236-1
 
 set_param project.singleFileAddWarning.threshold 0
 set_param project.compositeFile.enableAutoGeneration 0
 set_param synth.vivado.isSynthRun true
-set_property webtalk.parent_dir D:/Repo-Lenovo/VHDL-Basys3/Combinacionales/publick7seg/publick7seg.cache/wt [current_project]
-set_property parent.project_path D:/Repo-Lenovo/VHDL-Basys3/Combinacionales/publick7seg/publick7seg.xpr [current_project]
+set_property webtalk.parent_dir D:/Repo-Lenovo/VHDL-Basys3/Secuenciales/publick7seg/publick7seg.cache/wt [current_project]
+set_property parent.project_path D:/Repo-Lenovo/VHDL-Basys3/Secuenciales/publick7seg/publick7seg.xpr [current_project]
 set_property default_lib xil_defaultlib [current_project]
 set_property target_language VHDL [current_project]
 set_property board_part digilentinc.com:basys3:part0:1.2 [current_project]
-set_property ip_output_repo d:/Repo-Lenovo/VHDL-Basys3/Combinacionales/publick7seg/publick7seg.cache/ip [current_project]
+set_property ip_output_repo d:/Repo-Lenovo/VHDL-Basys3/Secuenciales/publick7seg/publick7seg.cache/ip [current_project]
 set_property ip_cache_permissions {read write} [current_project]
 OPTRACE "Creating in-memory project" END { }
 OPTRACE "Adding files" START { }
 read_vhdl -library xil_defaultlib {
-  D:/Repo-Lenovo/VHDL-Basys3/Combinacionales/publick7seg/publick7seg.srcs/sources_1/new/Mux4a1.vhd
-  D:/Repo-Lenovo/VHDL-Basys3/Combinacionales/publick7seg/publick7seg.srcs/sources_1/new/cuenta.vhd
-  D:/Repo-Lenovo/VHDL-Basys3/Combinacionales/publick7seg/publick7seg.srcs/sources_1/new/divide.vhd
-  D:/Repo-Lenovo/VHDL-Basys3/Combinacionales/publick7seg/publick7seg.srcs/sources_1/new/negacion.vhd
-  D:/Repo-Lenovo/VHDL-Basys3/Combinacionales/publick7seg/publick7seg.srcs/sources_1/new/SupPublick.vhd
+  D:/Repo-Lenovo/VHDL-Basys3/Secuenciales/publick7seg/publick7seg.srcs/sources_1/new/Mux4a1.vhd
+  D:/Repo-Lenovo/VHDL-Basys3/Secuenciales/publick7seg/publick7seg.srcs/sources_1/new/cuenta.vhd
+  D:/Repo-Lenovo/VHDL-Basys3/Secuenciales/publick7seg/publick7seg.srcs/sources_1/new/divide.vhd
+  D:/Repo-Lenovo/VHDL-Basys3/Secuenciales/publick7seg/publick7seg.srcs/sources_1/new/negacion.vhd
+  D:/Repo-Lenovo/VHDL-Basys3/Secuenciales/publick7seg/publick7seg.srcs/sources_1/new/SupPublick.vhd
 }
 OPTRACE "Adding files" END { }
 # Mark all dcp files as not used in implementation to prevent them from being
@@ -107,10 +101,12 @@ OPTRACE "Adding files" END { }
 foreach dcp [get_files -quiet -all -filter file_type=="Design\ Checkpoint"] {
   set_property used_in_implementation false $dcp
 }
-read_xdc D:/Repo-Lenovo/VHDL-Basys3/Combinacionales/publick7seg/publick7seg.srcs/constrs_1/new/pines.xdc
-set_property used_in_implementation false [get_files D:/Repo-Lenovo/VHDL-Basys3/Combinacionales/publick7seg/publick7seg.srcs/constrs_1/new/pines.xdc]
+read_xdc D:/Repo-Lenovo/VHDL-Basys3/Secuenciales/publick7seg/publick7seg.srcs/constrs_1/new/pines.xdc
+set_property used_in_implementation false [get_files D:/Repo-Lenovo/VHDL-Basys3/Secuenciales/publick7seg/publick7seg.srcs/constrs_1/new/pines.xdc]
 
 set_param ips.enableIPCacheLiteLoad 1
+
+read_checkpoint -auto_incremental -incremental D:/Repo-Lenovo/VHDL-Basys3/Secuenciales/publick7seg/publick7seg.srcs/utils_1/imports/synth_1/SupPublick.dcp
 close [open __synthesis_is_running__ w]
 
 OPTRACE "synth_design" START { }
