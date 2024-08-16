@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2023.1.1 (64-bit)
+# SW Build 3900603 on Fri Jun 16 19:31:24 MDT 2023
+# IP Build 3900379 on Sat Jun 17 05:28:05 MDT 2023
+# SharedData Build 3899622 on Fri Jun 16 03:34:24 MDT 2023
+# Start of session at: Sat Aug 10 05:46:03 2024
+# Process ID: 14452
+# Current directory: C:/Repo-Asus/VHDL-Basys3-Privado-2024/Base_cmodA7/Laboratorio_1A.runs/impl_1
+# Command line: vivado.exe -log Combinacional.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source Combinacional.tcl -notrace
+# Log file: C:/Repo-Asus/VHDL-Basys3-Privado-2024/Base_cmodA7/Laboratorio_1A.runs/impl_1/Combinacional.vdi
+# Journal file: C:/Repo-Asus/VHDL-Basys3-Privado-2024/Base_cmodA7/Laboratorio_1A.runs/impl_1\vivado.jou
+# Running On: Cesar, OS: Windows, CPU Frequency: 2794 MHz, CPU Physical cores: 8, Host memory: 16407 MB
+#-----------------------------------------------------------
+source Combinacional.tcl -notrace

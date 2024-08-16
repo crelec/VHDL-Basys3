@@ -1,0 +1,12 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../Laboratorio_1A.srcs/sources_1/new/Combinacional.vhd" \
+"../../../../Laboratorio_1A.srcs/sources_1/new/ContadorEstados.vhd" \
+"../../../../Laboratorio_1A.srcs/sources_1/new/Cuenta_Asin_2s.vhd" \
+"../../../../Laboratorio_1A.srcs/sources_1/new/Cuenta_Sin_2s.vhd" \
+"../../../../Laboratorio_1A.srcs/sources_1/new/Display.vhd" \
+"../../../../Laboratorio_1A.srcs/sources_1/new/Maq_estadoReb2.vhd" \
+"../../../../Laboratorio_1A.srcs/sim_1/new/Simulacion.vhd" \
+
+# Do not sort compile order
+nosort
