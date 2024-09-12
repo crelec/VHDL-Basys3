@@ -1,4 +1,4 @@
-set_property SRC_FILE_INFO {cfile:D:/Repo-Lenovo/VHDL-Basys3/MaquinaEstados/Serial-TX/Serial-TX.srcs/constrs_1/new/pines.xdc rfile:../../../Serial-TX.srcs/constrs_1/new/pines.xdc id:1} [current_design]
+set_property SRC_FILE_INFO {cfile:C:/Repo-Asus/VHDL-Basys3/MaquinaEstados/Serial-TX/Serial-TX.srcs/constrs_1/new/pines.xdc rfile:../../../Serial-TX.srcs/constrs_1/new/pines.xdc id:1} [current_design]
 set_property src_info {type:XDC file:1 line:2 export:INPUT save:INPUT read:READ} [current_design]
 set_property -dict { PACKAGE_PIN W5   IOSTANDARD LVCMOS33 } [get_ports clk]
 set_property src_info {type:XDC file:1 line:5 export:INPUT save:INPUT read:READ} [current_design]
@@ -25,3 +25,5 @@ set_property src_info {type:XDC file:1 line:18 export:INPUT save:INPUT read:READ
 set_property -dict { PACKAGE_PIN J1   IOSTANDARD LVCMOS33 } [get_ports tx]
 set_property src_info {type:XDC file:1 line:19 export:INPUT save:INPUT read:READ} [current_design]
 set_property -dict { PACKAGE_PIN L2   IOSTANDARD LVCMOS33 } [get_ports eot]
+set_property src_info {type:XDC file:1 line:24 export:INPUT save:INPUT read:READ} [current_design]
+set_property -dict { PACKAGE_PIN A18   IOSTANDARD LVCMOS33 } [get_ports tx]

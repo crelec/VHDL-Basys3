@@ -1,4 +1,4 @@
-set_property SRC_FILE_INFO {cfile:D:/Repo-Lenovo/VHDL-Basys3/MaquinaEstados/Serial-RX/Serial-RX.srcs/constrs_1/new/pines.xdc rfile:../../../Serial-RX.srcs/constrs_1/new/pines.xdc id:1} [current_design]
+set_property SRC_FILE_INFO {cfile:C:/Repo-Asus/VHDL-Basys3/MaquinaEstados/Serial-RX/Serial-RX.srcs/constrs_1/new/pines.xdc rfile:../../../Serial-RX.srcs/constrs_1/new/pines.xdc id:1} [current_design]
 set_property src_info {type:XDC file:1 line:2 export:INPUT save:INPUT read:READ} [current_design]
 set_property -dict { PACKAGE_PIN W5   IOSTANDARD LVCMOS33 } [get_ports clk]
 set_property src_info {type:XDC file:1 line:5 export:INPUT save:INPUT read:READ} [current_design]
@@ -21,3 +21,5 @@ set_property src_info {type:XDC file:1 line:14 export:INPUT save:INPUT read:READ
 set_property -dict { PACKAGE_PIN V14   IOSTANDARD LVCMOS33 } [get_ports {DatoOut[7]}]
 set_property src_info {type:XDC file:1 line:17 export:INPUT save:INPUT read:READ} [current_design]
 set_property -dict { PACKAGE_PIN J1   IOSTANDARD LVCMOS33 } [get_ports LineRD_in]
+set_property src_info {type:XDC file:1 line:22 export:INPUT save:INPUT read:READ} [current_design]
+set_property -dict { PACKAGE_PIN B18   IOSTANDARD LVCMOS33 } [get_ports LineRD_in]
