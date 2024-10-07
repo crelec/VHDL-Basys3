@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="synth_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1698182670" LaunchIncrCheckpoint="$PSRCDIR/utils_1/imports/synth_1/SupContador.dcp">
+<GenRun Id="synth_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1728314913" LaunchIncrCheckpoint="$PSRCDIR/utils_1/imports/synth_1/SupContador.dcp">
   <File Type="PA-TCL" Name="SupContador.tcl"/>
   <File Type="RDS-PROPCONSTRS" Name="SupContador_drc_synth.rpt"/>
   <File Type="REPORTS-TCL" Name="SupContador_reports.tcl"/>

@@ -1,6 +1,6 @@
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
-use IEEE.STD_LOGIC_unsigned.all;
+use IEEE.NUMERIC_STD.ALL;
 
 entity Contador is
     Port ( clk : in STD_LOGIC;
@@ -10,7 +10,7 @@ end Contador;
 
 architecture Behavioral of Contador is
 
-signal cuenta:STD_LOGIC_VECTOR (7 downto 0);
+signal cuenta: unsigned(7 downto 0);
 
 begin
 	process(clk,reset)
@@ -21,5 +21,5 @@ begin
 		cuenta <= (cuenta + 1);
 		end if; 
 	end process;
-	FoutCuenta<=cuenta;
+	FoutCuenta<=std_logic_vector(cuenta);
 end Behavioral;

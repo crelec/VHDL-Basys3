@@ -1,8 +1,8 @@
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
 -------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version     : Vivado v.2023.1.1 (win64) Build 3900603 Fri Jun 16 19:31:24 MDT 2023
-| Date             : Tue Oct 24 16:26:44 2023
-| Host             : LenovoCesar running 64-bit major release  (build 9200)
+| Date             : Mon Oct  7 10:31:54 2024
+| Host             : Cesar running 64-bit major release  (build 9200)
 | Command          : report_power -file SupContador_power_routed.rpt -pb SupContador_power_summary_routed.pb -rpx SupContador_power_routed.rpx
 | Design           : SupContador
 | Device           : xc7a35tcpg236-1
@@ -53,12 +53,12 @@ Table of Contents
 | On-Chip        | Power (W) | Used     | Available | Utilization (%) |
 +----------------+-----------+----------+-----------+-----------------+
 | Clocks         |    <0.001 |        3 |       --- |             --- |
-| Slice Logic    |    <0.001 |       89 |       --- |             --- |
+| Slice Logic    |    <0.001 |       88 |       --- |             --- |
 |   LUT as Logic |    <0.001 |       28 |     20800 |            0.13 |
-|   Register     |    <0.001 |       36 |     41600 |            0.09 |
+|   Register     |    <0.001 |       35 |     41600 |            0.08 |
 |   CARRY4       |    <0.001 |        7 |      8150 |            0.09 |
 |   Others       |     0.000 |        3 |       --- |             --- |
-| Signals        |    <0.001 |       76 |       --- |             --- |
+| Signals        |    <0.001 |       75 |       --- |             --- |
 | I/O            |     0.012 |       10 |       106 |            9.43 |
 | Static Power   |     0.072 |          |           |                 |
 | Total          |     0.084 |          |           |                 |

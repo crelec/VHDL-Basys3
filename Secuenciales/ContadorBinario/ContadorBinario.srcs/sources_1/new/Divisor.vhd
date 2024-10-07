@@ -1,5 +1,6 @@
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
+use IEEE.NUMERIC_STD.ALL;
 
 entity Divisor is
     Port ( clk : in STD_LOGIC;
@@ -8,15 +9,12 @@ entity Divisor is
 end Divisor;
 
 architecture Behavioral of Divisor is
--- Para calcular cuenta y fincuenta se parte de:
--- reloj de la basys 3  100MHZ => periodo 1/100MHZ =10ns
--- fincuenta = tiempo del alto/10ns ejemplo fincuenta= 0.5seg/10ns=50000000
--- cuenta = log(fincuenta)/log(2) ejemplo cuenta= log(50000000)/log(2)= 25.575 se aproxima a 26
+constant DIVIDER_TIME : natural := 50000000; -- Divisor para 0.5 seg
+constant COUNTER_WIDTH : natural := 26; -- Ancho suficiente para el contador
+constant fincuenta : unsigned(COUNTER_WIDTH-1 downto 0) := to_unsigned(DIVIDER_TIME, COUNTER_WIDTH);
 
-signal cuenta : natural range 0 to 2**26-1;
-constant fincuenta : natural := 50000000;
-signal unseg : std_logic;
-signal aux : std_logic;
+signal cuenta : unsigned(COUNTER_WIDTH-1 downto 0) := (others => '0');
+signal aux : std_logic := '0';
 
 begin 
 
@@ -24,27 +22,13 @@ begin
   
 begin
 	if reset = '1' then
-		cuenta <= 0;
-		unseg <= '0';
+		cuenta <= (others => '0');
 	elsif clk'event and clk = '1' then
-		if cuenta = fincuenta-1 then -- aqui se pone la constante en vez de 49999999
-			cuenta <= 0;
-			unseg <= '1';
+		if cuenta = fincuenta-1 then 
+			cuenta <= (others => '0');
+			aux <= not aux;
 		else
 			cuenta <= cuenta + 1;
-			unseg <= '0';
-		end if;
-	end if;
-end process;
-
---flip flop
-Process (reset, clk)
-begin
-	if reset = '1' then
-		aux <= '0';
-	elsif clk'event and clk='1' then
-		if unseg = '1' then
-			aux <= not aux;
 		end if;
 	end if;
 end process;
