@@ -3,18 +3,18 @@
 # SW Build 3900603 on Fri Jun 16 19:31:24 MDT 2023
 # IP Build 3900379 on Sat Jun 17 05:28:05 MDT 2023
 # SharedData Build 3899622 on Fri Jun 16 03:34:24 MDT 2023
-# Start of session at: Thu Oct 26 09:01:24 2023
-# Process ID: 17704
-# Current directory: D:/Repo-Lenovo/VHDL-Basys3/Secuenciales/DivisorFrecuencia/DivisorFrecuencia.runs/synth_1
+# Start of session at: Mon Oct  7 05:40:28 2024
+# Process ID: 9180
+# Current directory: C:/Repo-Asus/VHDL-Basys3/Secuenciales/DivisorFrecuencia/DivisorFrecuencia.runs/synth_1
 # Command line: vivado.exe -log Divisor.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Divisor.tcl
-# Log file: D:/Repo-Lenovo/VHDL-Basys3/Secuenciales/DivisorFrecuencia/DivisorFrecuencia.runs/synth_1/Divisor.vds
-# Journal file: D:/Repo-Lenovo/VHDL-Basys3/Secuenciales/DivisorFrecuencia/DivisorFrecuencia.runs/synth_1\vivado.jou
-# Running On: LenovoCesar, OS: Windows, CPU Frequency: 1800 MHz, CPU Physical cores: 4, Host memory: 21343 MB
+# Log file: C:/Repo-Asus/VHDL-Basys3/Secuenciales/DivisorFrecuencia/DivisorFrecuencia.runs/synth_1/Divisor.vds
+# Journal file: C:/Repo-Asus/VHDL-Basys3/Secuenciales/DivisorFrecuencia/DivisorFrecuencia.runs/synth_1\vivado.jou
+# Running On: Cesar, OS: Windows, CPU Frequency: 2795 MHz, CPU Physical cores: 8, Host memory: 16407 MB
 #-----------------------------------------------------------
 source Divisor.tcl -notrace
-create_project: Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 485.883 ; gain = 199.344
-Command: read_checkpoint -auto_incremental -incremental D:/Repo-Lenovo/VHDL-Basys3/Secuenciales/DivisorFrecuencia/DivisorFrecuencia.srcs/utils_1/imports/synth_1/Divisor.dcp
-INFO: [Vivado 12-5825] Read reference checkpoint from D:/Repo-Lenovo/VHDL-Basys3/Secuenciales/DivisorFrecuencia/DivisorFrecuencia.srcs/utils_1/imports/synth_1/Divisor.dcp for incremental synthesis
+create_project: Time (s): cpu = 00:00:07 ; elapsed = 00:00:11 . Memory (MB): peak = 483.629 ; gain = 199.348
+Command: read_checkpoint -auto_incremental -incremental C:/Repo-Asus/VHDL-Basys3/Secuenciales/DivisorFrecuencia/DivisorFrecuencia.srcs/utils_1/imports/synth_1/Divisor.dcp
+INFO: [Vivado 12-5825] Read reference checkpoint from C:/Repo-Asus/VHDL-Basys3/Secuenciales/DivisorFrecuencia/DivisorFrecuencia.srcs/utils_1/imports/synth_1/Divisor.dcp for incremental synthesis
 INFO: [Vivado 12-7989] Please ensure there are no constraint changes
 Command: synth_design -top Divisor -part xc7a35tcpg236-1
 Starting synth_design
@@ -25,60 +25,60 @@ INFO: [Designutils 20-5440] No compile time benefit to using incremental synthes
 INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
 INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
 INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
-INFO: [Synth 8-7075] Helper process launched with PID 4196
+INFO: [Synth 8-7075] Helper process launched with PID 17380
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1299.379 ; gain = 410.852
+Starting RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:09 . Memory (MB): peak = 1299.043 ; gain = 411.262
 ---------------------------------------------------------------------------------
-INFO: [Synth 8-638] synthesizing module 'Divisor' [D:/Repo-Lenovo/VHDL-Basys3/Secuenciales/DivisorFrecuencia/DivisorFrecuencia.srcs/sources_1/new/Divisor.vhd:10]
-INFO: [Synth 8-256] done synthesizing module 'Divisor' (0#1) [D:/Repo-Lenovo/VHDL-Basys3/Secuenciales/DivisorFrecuencia/DivisorFrecuencia.srcs/sources_1/new/Divisor.vhd:10]
+INFO: [Synth 8-638] synthesizing module 'Divisor' [C:/Repo-Asus/VHDL-Basys3/Secuenciales/DivisorFrecuencia/DivisorFrecuencia.srcs/sources_1/new/Divisor.vhd:11]
+INFO: [Synth 8-256] done synthesizing module 'Divisor' (0#1) [C:/Repo-Asus/VHDL-Basys3/Secuenciales/DivisorFrecuencia/DivisorFrecuencia.srcs/sources_1/new/Divisor.vhd:11]
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:09 . Memory (MB): peak = 1389.297 ; gain = 500.770
+Finished RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:11 . Memory (MB): peak = 1388.930 ; gain = 501.148
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 1389.297 ; gain = 500.770
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:07 ; elapsed = 00:00:11 . Memory (MB): peak = 1388.930 ; gain = 501.148
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 1389.297 ; gain = 500.770
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:11 . Memory (MB): peak = 1388.930 ; gain = 501.148
 ---------------------------------------------------------------------------------
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1389.297 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1388.930 ; gain = 0.000
 INFO: [Project 1-570] Preparing netlist for logic optimization
 
 Processing XDC Constraints
 Initializing timing engine
-Parsing XDC File [D:/Repo-Lenovo/VHDL-Basys3/Secuenciales/DivisorFrecuencia/DivisorFrecuencia.srcs/constrs_1/new/Pines.xdc]
-Finished Parsing XDC File [D:/Repo-Lenovo/VHDL-Basys3/Secuenciales/DivisorFrecuencia/DivisorFrecuencia.srcs/constrs_1/new/Pines.xdc]
-INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [D:/Repo-Lenovo/VHDL-Basys3/Secuenciales/DivisorFrecuencia/DivisorFrecuencia.srcs/constrs_1/new/Pines.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/Divisor_propImpl.xdc].
+Parsing XDC File [C:/Repo-Asus/VHDL-Basys3/Secuenciales/DivisorFrecuencia/DivisorFrecuencia.srcs/constrs_1/new/Pines.xdc]
+Finished Parsing XDC File [C:/Repo-Asus/VHDL-Basys3/Secuenciales/DivisorFrecuencia/DivisorFrecuencia.srcs/constrs_1/new/Pines.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Repo-Asus/VHDL-Basys3/Secuenciales/DivisorFrecuencia/DivisorFrecuencia.srcs/constrs_1/new/Pines.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/Divisor_propImpl.xdc].
 Resolution: To avoid this warning, move constraints listed in [.Xil/Divisor_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
 Completed Processing XDC Constraints
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1432.102 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1447.352 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1432.102 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1447.352 ; gain = 0.000
 INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
 INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:17 ; elapsed = 00:00:19 . Memory (MB): peak = 1432.102 ; gain = 543.574
+Finished Constraint Validation : Time (s): cpu = 00:00:14 ; elapsed = 00:00:24 . Memory (MB): peak = 1447.352 ; gain = 559.570
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7a35tcpg236-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:17 ; elapsed = 00:00:19 . Memory (MB): peak = 1432.102 ; gain = 543.574
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:14 ; elapsed = 00:00:24 . Memory (MB): peak = 1447.352 ; gain = 559.570
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:17 ; elapsed = 00:00:19 . Memory (MB): peak = 1432.102 ; gain = 543.574
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:14 ; elapsed = 00:00:24 . Memory (MB): peak = 1447.352 ; gain = 559.570
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:17 ; elapsed = 00:00:19 . Memory (MB): peak = 1432.102 ; gain = 543.574
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:15 ; elapsed = 00:00:24 . Memory (MB): peak = 1447.352 ; gain = 559.570
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start RTL Component Statistics 
@@ -88,7 +88,7 @@ Detailed RTL Component Info :
 	   2 Input   26 Bit       Adders := 1     
 +---Registers : 
 	               26 Bit    Registers := 1     
-	                1 Bit    Registers := 2     
+	                1 Bit    Registers := 1     
 +---Muxes : 
 	   2 Input   26 Bit        Muxes := 1     
 ---------------------------------------------------------------------------------
@@ -108,25 +108,25 @@ Start Cross Boundary and Area Optimization
 ---------------------------------------------------------------------------------
 WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:19 ; elapsed = 00:00:22 . Memory (MB): peak = 1432.102 ; gain = 543.574
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:16 ; elapsed = 00:00:27 . Memory (MB): peak = 1447.352 ; gain = 559.570
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:26 ; elapsed = 00:00:28 . Memory (MB): peak = 1432.102 ; gain = 543.574
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:21 ; elapsed = 00:00:35 . Memory (MB): peak = 1447.352 ; gain = 559.570
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:26 ; elapsed = 00:00:28 . Memory (MB): peak = 1432.102 ; gain = 543.574
+Finished Timing Optimization : Time (s): cpu = 00:00:21 ; elapsed = 00:00:36 . Memory (MB): peak = 1447.352 ; gain = 559.570
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:26 ; elapsed = 00:00:28 . Memory (MB): peak = 1432.102 ; gain = 543.574
+Finished Technology Mapping : Time (s): cpu = 00:00:21 ; elapsed = 00:00:36 . Memory (MB): peak = 1447.352 ; gain = 559.570
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start IO Insertion
@@ -144,37 +144,37 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:31 ; elapsed = 00:00:34 . Memory (MB): peak = 1432.102 ; gain = 543.574
+Finished IO Insertion : Time (s): cpu = 00:00:25 ; elapsed = 00:00:44 . Memory (MB): peak = 1447.352 ; gain = 559.570
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:31 ; elapsed = 00:00:34 . Memory (MB): peak = 1432.102 ; gain = 543.574
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:25 ; elapsed = 00:00:44 . Memory (MB): peak = 1447.352 ; gain = 559.570
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:31 ; elapsed = 00:00:34 . Memory (MB): peak = 1432.102 ; gain = 543.574
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:25 ; elapsed = 00:00:44 . Memory (MB): peak = 1447.352 ; gain = 559.570
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:31 ; elapsed = 00:00:34 . Memory (MB): peak = 1432.102 ; gain = 543.574
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:25 ; elapsed = 00:00:44 . Memory (MB): peak = 1447.352 ; gain = 559.570
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:31 ; elapsed = 00:00:34 . Memory (MB): peak = 1432.102 ; gain = 543.574
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:25 ; elapsed = 00:00:44 . Memory (MB): peak = 1447.352 ; gain = 559.570
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:31 ; elapsed = 00:00:34 . Memory (MB): peak = 1432.102 ; gain = 543.574
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:26 ; elapsed = 00:00:44 . Memory (MB): peak = 1447.352 ; gain = 559.570
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -192,35 +192,37 @@ Report Cell Usage:
 +------+-------+------+
 |1     |BUFG   |     1|
 |2     |CARRY4 |     7|
-|3     |LUT1   |     2|
-|4     |LUT2   |    26|
-|5     |LUT4   |     5|
-|6     |LUT6   |     2|
-|7     |FDCE   |    28|
-|8     |IBUF   |     2|
-|9     |OBUF   |     1|
+|3     |LUT1   |     1|
+|4     |LUT2   |    25|
+|5     |LUT3   |     1|
+|6     |LUT4   |     5|
+|7     |LUT6   |     2|
+|8     |FDCE   |    26|
+|9     |FDRE   |     1|
+|10    |IBUF   |     2|
+|11    |OBUF   |     1|
 +------+-------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:31 ; elapsed = 00:00:34 . Memory (MB): peak = 1432.102 ; gain = 543.574
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:26 ; elapsed = 00:00:44 . Memory (MB): peak = 1447.352 ; gain = 559.570
 ---------------------------------------------------------------------------------
 Synthesis finished with 0 errors, 0 critical warnings and 1 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:22 ; elapsed = 00:00:32 . Memory (MB): peak = 1432.102 ; gain = 500.770
-Synthesis Optimization Complete : Time (s): cpu = 00:00:32 ; elapsed = 00:00:35 . Memory (MB): peak = 1432.102 ; gain = 543.574
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:17 ; elapsed = 00:00:42 . Memory (MB): peak = 1447.352 ; gain = 501.148
+Synthesis Optimization Complete : Time (s): cpu = 00:00:26 ; elapsed = 00:00:45 . Memory (MB): peak = 1447.352 ; gain = 559.570
 INFO: [Project 1-571] Translating synthesized netlist
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1432.102 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1447.352 ; gain = 0.000
 INFO: [Netlist 29-17] Analyzing 7 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1432.102 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1447.352 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Synth Design complete | Checksum: 2ff9fa25
+Synth Design complete | Checksum: 60e4beb
 INFO: [Common 17-83] Releasing license: Synthesis
 23 Infos, 1 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:37 ; elapsed = 00:00:41 . Memory (MB): peak = 1432.102 ; gain = 921.332
-INFO: [Common 17-1381] The checkpoint 'D:/Repo-Lenovo/VHDL-Basys3/Secuenciales/DivisorFrecuencia/DivisorFrecuencia.runs/synth_1/Divisor.dcp' has been generated.
+synth_design: Time (s): cpu = 00:00:30 ; elapsed = 00:00:53 . Memory (MB): peak = 1447.352 ; gain = 938.852
+INFO: [Common 17-1381] The checkpoint 'C:/Repo-Asus/VHDL-Basys3/Secuenciales/DivisorFrecuencia/DivisorFrecuencia.runs/synth_1/Divisor.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_utilization -file Divisor_utilization_synth.rpt -pb Divisor_utilization_synth.pb
-INFO: [Common 17-206] Exiting Vivado at Thu Oct 26 09:02:17 2023...
+INFO: [Common 17-206] Exiting Vivado at Mon Oct  7 05:41:36 2024...

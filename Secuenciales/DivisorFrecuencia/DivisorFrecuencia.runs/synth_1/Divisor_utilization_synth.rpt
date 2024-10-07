@@ -1,8 +1,8 @@
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
 ---------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2023.1.1 (win64) Build 3900603 Fri Jun 16 19:31:24 MDT 2023
-| Date         : Thu Oct 26 09:02:17 2023
-| Host         : LenovoCesar running 64-bit major release  (build 9200)
+| Date         : Mon Oct  7 05:41:36 2024
+| Host         : Cesar running 64-bit major release  (build 9200)
 | Command      : report_utilization -file Divisor_utilization_synth.rpt -pb Divisor_utilization_synth.pb
 | Design       : Divisor
 | Device       : xc7a35tcpg236-1
@@ -34,8 +34,8 @@ Table of Contents
 | Slice LUTs*             |   22 |     0 |          0 |     20800 |  0.11 |
 |   LUT as Logic          |   22 |     0 |          0 |     20800 |  0.11 |
 |   LUT as Memory         |    0 |     0 |          0 |      9600 |  0.00 |
-| Slice Registers         |   28 |     0 |          0 |     41600 |  0.07 |
-|   Register as Flip Flop |   28 |     0 |          0 |     41600 |  0.07 |
+| Slice Registers         |   27 |     0 |          0 |     41600 |  0.06 |
+|   Register as Flip Flop |   27 |     0 |          0 |     41600 |  0.06 |
 |   Register as Latch     |    0 |     0 |          0 |     41600 |  0.00 |
 | F7 Muxes                |    0 |     0 |          0 |     16300 |  0.00 |
 | F8 Muxes                |    0 |     0 |          0 |      8150 |  0.00 |
@@ -57,9 +57,9 @@ Warning! LUT value is adjusted to account for LUT combining.
 | 0     |            _ |       Reset |            - |
 | 0     |          Yes |           - |            - |
 | 0     |          Yes |           - |          Set |
-| 28    |          Yes |           - |        Reset |
+| 26    |          Yes |           - |        Reset |
 | 0     |          Yes |         Set |            - |
-| 0     |          Yes |       Reset |            - |
+| 1     |          Yes |       Reset |            - |
 +-------+--------------+-------------+--------------+
 
 
@@ -151,14 +151,16 @@ Warning! LUT value is adjusted to account for LUT combining.
 +----------+------+---------------------+
 | Ref Name | Used | Functional Category |
 +----------+------+---------------------+
-| FDCE     |   28 |        Flop & Latch |
-| LUT2     |   26 |                 LUT |
+| FDCE     |   26 |        Flop & Latch |
+| LUT2     |   25 |                 LUT |
 | CARRY4   |    7 |          CarryLogic |
 | LUT4     |    5 |                 LUT |
 | LUT6     |    2 |                 LUT |
-| LUT1     |    2 |                 LUT |
 | IBUF     |    2 |                  IO |
 | OBUF     |    1 |                  IO |
+| LUT3     |    1 |                 LUT |
+| LUT1     |    1 |                 LUT |
+| FDRE     |    1 |        Flop & Latch |
 | BUFG     |    1 |               Clock |
 +----------+------+---------------------+
 
