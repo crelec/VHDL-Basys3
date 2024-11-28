@@ -1,7 +1,7 @@
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
 -------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version     : Vivado v.2023.1.1 (win64) Build 3900603 Fri Jun 16 19:31:24 MDT 2023
-| Date             : Mon Oct  7 05:43:31 2024
+| Date             : Thu Nov 28 09:34:10 2024
 | Host             : Cesar running 64-bit major release  (build 9200)
 | Command          : report_power -file Divisor_power_routed.rpt -pb Divisor_power_summary_routed.pb -rpx Divisor_power_routed.rpx
 | Design           : Divisor
@@ -53,12 +53,12 @@ Table of Contents
 | On-Chip        | Power (W) | Used     | Available | Utilization (%) |
 +----------------+-----------+----------+-----------+-----------------+
 | Clocks         |    <0.001 |        3 |       --- |             --- |
-| Slice Logic    |    <0.001 |       70 |       --- |             --- |
-|   LUT as Logic |    <0.001 |       22 |     20800 |            0.11 |
-|   CARRY4       |    <0.001 |        7 |      8150 |            0.09 |
-|   Register     |    <0.001 |       27 |     41600 |            0.06 |
+| Slice Logic    |    <0.001 |       44 |       --- |             --- |
+|   LUT as Logic |    <0.001 |       20 |     20800 |            0.10 |
+|   CARRY4       |    <0.001 |        4 |      8150 |            0.05 |
+|   Register     |    <0.001 |       17 |     41600 |            0.04 |
 |   Others       |     0.000 |        2 |       --- |             --- |
-| Signals        |    <0.001 |       66 |       --- |             --- |
+| Signals        |    <0.001 |       40 |       --- |             --- |
 | I/O            |    <0.001 |        3 |       106 |            2.83 |
 | Static Power   |     0.068 |          |           |                 |
 | Total          |     0.069 |          |           |                 |
@@ -71,7 +71,7 @@ Table of Contents
 +-----------+-------------+-----------+-------------+------------+-------------+-------------+------------+
 | Source    | Voltage (V) | Total (A) | Dynamic (A) | Static (A) | Powerup (A) | Budget (A)  | Margin (A) |
 +-----------+-------------+-----------+-------------+------------+-------------+-------------+------------+
-| Vccint    |       1.000 |     0.010 |       0.001 |      0.010 |       NA    | Unspecified | NA         |
+| Vccint    |       1.000 |     0.011 |       0.001 |      0.010 |       NA    | Unspecified | NA         |
 | Vccaux    |       1.800 |     0.013 |       0.000 |      0.013 |       NA    | Unspecified | NA         |
 | Vcco33    |       3.300 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
 | Vcco25    |       2.500 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
@@ -137,8 +137,10 @@ Table of Contents
 3.1 By Hierarchy
 ----------------
 
-+------+-----------+
-| Name | Power (W) |
-+------+-----------+
++---------+-----------+
+| Name    | Power (W) |
++---------+-----------+
+| Divisor |     0.001 |
++---------+-----------+
 
 
