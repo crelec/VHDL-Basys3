@@ -16,6 +16,7 @@
 
 ## **Secuenciales.**
 * **Ejemplo Divisor de frecuencia.** [Ver -> GitHub](https://github.com/ceroma1/VHDL-Basys3/tree/main/Secuenciales/DivisorFrecuencia)
+* **Ejemplo Timer 500us** [Ver -> GitHub](https://github.com/ceroma1/VHDL-Basys3/tree/main/Secuenciales/Timer)
 * **Ejemplo Contador binario de 8 bits.** [Ver -> GitHub](https://github.com/ceroma1/VHDL-Basys3/tree/main/Secuenciales/ContadorBinario)
 * **Ejemplo Contador binario BCD de 4 bits.** [Ver -> GitHub](https://github.com/ceroma1/VHDL-Basys3/tree/main/Secuenciales/ContadorBCD)
 * **Ejemplo concepto visualización dinámica.** [Ver -> GitHub](https://github.com/ceroma1/VHDL-Basys3/tree/main/Secuenciales/MuxDisplayMano)
