@@ -28,11 +28,18 @@ component Baudios_tx is
       fbaudio : out STD_LOGIC);
 end component;
 
-signal sg : std_logic;
+component SupReboteTemporizado is
+    Port ( clk : in STD_LOGIC;
+           reset : in STD_LOGIC;
+           Boton : in STD_LOGIC;
+           Boton_out : out STD_LOGIC);
+end component;
+
+signal sg,sg1 : std_logic;
 
 begin
 
 uo:Baudios_tx port map(clk=>clk,reset=>reset,fbaudio=>sg);
-u1:mod_tx Port map(clk=>clk,Reset=>reset,tick=>sg,Start=>Start,Data=>Data,EOT=>EOT,TX=>TX);
-
+u1:mod_tx Port map(clk=>clk,Reset=>reset,tick=>sg,Start=>sg1,Data=>Data,EOT=>EOT,TX=>TX);
+u2:SupReboteTemporizado Port map(clk=>clk,reset=>reset,Boton=>start,Boton_out=>sg1);
 end Behavioral;
