@@ -25,6 +25,9 @@
 * **Ejemplo Mostar mensaje fijo Publick.** [Ver -> GitHub](https://github.com/ceroma1/VHDL-Basys3/tree/main/Secuenciales/publick7seg)
 * **Ejemplo Multiplexación de mensajes fijos.** [Ver -> GitHub](https://github.com/ceroma1/VHDL-Basys3/tree/main/Secuenciales/MuxPublick)
 * **Ejemplo desplazamiento de mensaje fijo.** [Ver -> GitHub](https://github.com/ceroma1/VHDL-Basys3/tree/main/Secuenciales/PublickDesplaza)
+* **Ejemplo Cronometro.** [Ver -> GitHub](https://github.com/ceroma1/VHDL-Basys3/tree/main/Aplicaciones/Cronometro)
+* **Ejemplo Reloj formato 24h.** [Ver -> GitHub](https://github.com/ceroma1/VHDL-Basys3/tree/main/Aplicaciones/cronometroV2)
+* **Ejemplo Display Calculadora.** [Ver -> GitHub](https://github.com/ceroma1/VHDL-Basys3/tree/main/Aplicaciones/Display_calculadora)
 
 ## **Maquinas de Estado.**
 * **Ejemplo Máquina de Estados sin entradas externas caso uno: Contador más circuito combinacional.** [Ver -> GitHub](https://github.com/ceroma1/VHDL-Basys3/tree/main/MaquinaEstados/MaqEstadoUno)
@@ -39,5 +42,6 @@
 * **Ejemplo Verificación eliminación de rebotes en entrada mecanica (Solución con maquina de estados temporizada).** [Ver -> GitHub](https://github.com/ceroma1/VHDL-Basys3/tree/main/MaquinaEstados/VerificaTres)
 * **Ejemplo Transmisor serial rs-232 a 115200bps.** [Ver -> GitHub](https://github.com/ceroma1/VHDL-Basys3/tree/main/MaquinaEstados/Serial-TX)
 * **Ejemplo Receptor serial rs-232 a 115200bps.** [Ver -> GitHub](https://github.com/ceroma1/VHDL-Basys3/tree/main/MaquinaEstados/Serial-RX)
+* **Ejemplo UART-rs232 a 115200bps.** [Ver -> GitHub](https://github.com/ceroma1/VHDL-Basys3/tree/main/Aplicaciones/UART-rs232)
 
 ![image](https://github.com/ceroma1/VHDL-Basys3/assets/49888643/a87a2e6d-104a-49c5-a9e1-631fd0fc7bea)
