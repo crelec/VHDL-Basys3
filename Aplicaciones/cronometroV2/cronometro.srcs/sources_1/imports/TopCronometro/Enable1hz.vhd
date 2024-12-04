@@ -6,7 +6,6 @@ use IEEE.STD_LOGIC_1164.ALL;
 entity Enable1s is 
     Port ( clk : in  STD_LOGIC;
            reset : in  STD_LOGIC;
-           ce : in  STD_LOGIC;
            Fout1s : out  STD_LOGIC);
 end Enable1s;
 
@@ -19,7 +18,6 @@ architecture Behavioral of Enable1s is
 signal cuenta : natural range 0 to 2**16-1:=0;  
 constant fincuenta : natural := 60000;    
 signal unseg : std_logic:='0';
-signal aux : std_logic:='1';
 
 begin 
 
@@ -30,9 +28,7 @@ begin
         cuenta <= 0;
         unseg <= '0';
 	elsif clk'event and clk = '1' then
-		if ce = '1'then
-          unseg <= '0';
-	elsif cuenta = fincuenta-1 then 
+		if cuenta = fincuenta-1 then 
 			cuenta <= 0;
 			unseg <= '1';
 		else

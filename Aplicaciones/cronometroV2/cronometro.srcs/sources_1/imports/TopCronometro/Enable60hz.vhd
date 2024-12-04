@@ -3,7 +3,6 @@ use IEEE.STD_LOGIC_1164.ALL;
 
 entity EnableP is
     Port ( clk : in  STD_LOGIC;
-           reset : in  STD_LOGIC;
            FoutP : out  STD_LOGIC);
 end EnableP;
 

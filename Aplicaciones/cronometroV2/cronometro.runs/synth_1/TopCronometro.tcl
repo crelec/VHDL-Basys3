@@ -4,7 +4,7 @@
 
 set TIME_start [clock seconds] 
 namespace eval ::optrace {
-  variable script "C:/Repo-Asus/cronometro_OJO/cronometro.runs/synth_1/TopCronometro.tcl"
+  variable script "C:/Repo-Asus/VHDL-Basys3/Aplicaciones/cronometroV2/cronometro.runs/synth_1/TopCronometro.tcl"
   variable category "vivado_synth"
 }
 
@@ -72,7 +72,7 @@ proc create_report { reportName command } {
 OPTRACE "synth_1" START { ROLLUP_AUTO }
 set_param checkpoint.writeSynthRtdsInDcp 1
 set_param chipscope.maxJobs 2
-set_param xicom.use_bs_reader 1
+set_param synth.incrementalSynthesisCache C:/Users/cerom/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-21216-Cesar/incrSyn
 set_msg_config -id {Synth 8-256} -limit 10000
 set_msg_config -id {Synth 8-638} -limit 10000
 OPTRACE "Creating in-memory project" START { }
@@ -81,31 +81,34 @@ create_project -in_memory -part xc7a35tcpg236-1
 set_param project.singleFileAddWarning.threshold 0
 set_param project.compositeFile.enableAutoGeneration 0
 set_param synth.vivado.isSynthRun true
-set_property webtalk.parent_dir C:/Repo-Asus/cronometro_OJO/cronometro.cache/wt [current_project]
-set_property parent.project_path C:/Repo-Asus/cronometro_OJO/cronometro.xpr [current_project]
+set_property webtalk.parent_dir C:/Repo-Asus/VHDL-Basys3/Aplicaciones/cronometroV2/cronometro.cache/wt [current_project]
+set_property parent.project_path C:/Repo-Asus/VHDL-Basys3/Aplicaciones/cronometroV2/cronometro.xpr [current_project]
 set_property default_lib xil_defaultlib [current_project]
 set_property target_language VHDL [current_project]
 set_property board_part digilentinc.com:basys3:part0:1.2 [current_project]
-set_property ip_output_repo c:/Repo-Asus/cronometro_OJO/cronometro.cache/ip [current_project]
+set_property ip_output_repo c:/Repo-Asus/VHDL-Basys3/Aplicaciones/cronometroV2/cronometro.cache/ip [current_project]
 set_property ip_cache_permissions {read write} [current_project]
 OPTRACE "Creating in-memory project" END { }
 OPTRACE "Adding files" START { }
 read_vhdl -library xil_defaultlib {
-  C:/Repo-Asus/cronometro_OJO/cronometro.srcs/sources_1/imports/TopCronometro/Cuenta0a9.vhd
-  C:/Repo-Asus/cronometro_OJO/cronometro.srcs/sources_1/imports/TopCronometro/CuentaDisplay.vhd
-  C:/Repo-Asus/cronometro_OJO/cronometro.srcs/sources_1/imports/TopCronometro/Enable10hz.vhd
-  C:/Repo-Asus/cronometro_OJO/cronometro.srcs/sources_1/imports/TopCronometro/Enable1hz.vhd
-  C:/Repo-Asus/cronometro_OJO/cronometro.srcs/sources_1/imports/TopCronometro/Enable500hz.vhd
-  C:/Repo-Asus/cronometro_OJO/cronometro.srcs/sources_1/imports/TopCronometro/Enable60hz.vhd
-  C:/Repo-Asus/cronometro_OJO/cronometro.srcs/sources_1/imports/TopCronometro/Habilito_Display.vhd
-  C:/Repo-Asus/cronometro_OJO/cronometro.srcs/sources_1/imports/TopCronometro/Master_5MHZ.vhd
-  C:/Repo-Asus/cronometro_OJO/cronometro.srcs/sources_1/imports/TopCronometro/Modulo_BinBcd.vhd
-  C:/Repo-Asus/cronometro_OJO/cronometro.srcs/sources_1/new/Modulo_BinBcd2.vhd
-  C:/Repo-Asus/cronometro_OJO/cronometro.srcs/sources_1/imports/TopCronometro/Mux4a1.vhd
-  C:/Repo-Asus/cronometro_OJO/cronometro.srcs/sources_1/imports/TopCronometro/TopDisplay.vhd
-  C:/Repo-Asus/cronometro_OJO/cronometro.srcs/sources_1/imports/TopCronometro/cuenta0a59.vhd
-  C:/Repo-Asus/cronometro_OJO/cronometro.srcs/sources_1/imports/TopCronometro/lab151.vhd
-  C:/Repo-Asus/cronometro_OJO/cronometro.srcs/sources_1/imports/TopCronometro/TopCronometro.vhd
+  C:/Repo-Asus/VHDL-Basys3/Aplicaciones/cronometroV2/cronometro.srcs/sources_1/imports/TopCronometro/Cuenta0a9.vhd
+  C:/Repo-Asus/VHDL-Basys3/Aplicaciones/cronometroV2/cronometro.srcs/sources_1/imports/TopCronometro/CuentaDisplay.vhd
+  C:/Repo-Asus/VHDL-Basys3/Aplicaciones/cronometroV2/cronometro.srcs/sources_1/imports/TopCronometro/Enable1hz.vhd
+  C:/Repo-Asus/VHDL-Basys3/Aplicaciones/cronometroV2/cronometro.srcs/sources_1/imports/TopCronometro/Enable500hz.vhd
+  C:/Repo-Asus/VHDL-Basys3/Aplicaciones/cronometroV2/cronometro.srcs/sources_1/imports/TopCronometro/Enable60hz.vhd
+  C:/Repo-Asus/VHDL-Basys3/Aplicaciones/cronometroV2/cronometro.srcs/sources_1/imports/TopCronometro/Habilito_Display.vhd
+  C:/Repo-Asus/VHDL-Basys3/Aplicaciones/cronometroV2/cronometro.srcs/sources_1/imports/new/Maq_estadoReb.vhd
+  C:/Repo-Asus/VHDL-Basys3/Aplicaciones/cronometroV2/cronometro.srcs/sources_1/imports/TopCronometro/Master_5MHZ.vhd
+  C:/Repo-Asus/VHDL-Basys3/Aplicaciones/cronometroV2/cronometro.srcs/sources_1/imports/TopCronometro/Modulo_BinBcd.vhd
+  C:/Repo-Asus/VHDL-Basys3/Aplicaciones/cronometroV2/cronometro.srcs/sources_1/new/Modulo_BinBcd2.vhd
+  C:/Repo-Asus/VHDL-Basys3/Aplicaciones/cronometroV2/cronometro.srcs/sources_1/new/Mux1.vhd
+  C:/Repo-Asus/VHDL-Basys3/Aplicaciones/cronometroV2/cronometro.srcs/sources_1/imports/TopCronometro/Mux4a1.vhd
+  C:/Repo-Asus/VHDL-Basys3/Aplicaciones/cronometroV2/cronometro.srcs/sources_1/imports/new/SupReboteTemporizado.vhd
+  C:/Repo-Asus/VHDL-Basys3/Aplicaciones/cronometroV2/cronometro.srcs/sources_1/imports/new/TempReb.vhd
+  C:/Repo-Asus/VHDL-Basys3/Aplicaciones/cronometroV2/cronometro.srcs/sources_1/imports/TopCronometro/TopDisplay.vhd
+  C:/Repo-Asus/VHDL-Basys3/Aplicaciones/cronometroV2/cronometro.srcs/sources_1/imports/TopCronometro/cuenta0a59.vhd
+  C:/Repo-Asus/VHDL-Basys3/Aplicaciones/cronometroV2/cronometro.srcs/sources_1/imports/TopCronometro/lab151.vhd
+  C:/Repo-Asus/VHDL-Basys3/Aplicaciones/cronometroV2/cronometro.srcs/sources_1/imports/TopCronometro/TopCronometro.vhd
 }
 OPTRACE "Adding files" END { }
 # Mark all dcp files as not used in implementation to prevent them from being
@@ -116,12 +119,12 @@ OPTRACE "Adding files" END { }
 foreach dcp [get_files -quiet -all -filter file_type=="Design\ Checkpoint"] {
   set_property used_in_implementation false $dcp
 }
-read_xdc C:/Repo-Asus/cronometro_OJO/cronometro.srcs/constrs_1/new/pines.xdc
-set_property used_in_implementation false [get_files C:/Repo-Asus/cronometro_OJO/cronometro.srcs/constrs_1/new/pines.xdc]
+read_xdc C:/Repo-Asus/VHDL-Basys3/Aplicaciones/cronometroV2/cronometro.srcs/constrs_1/new/pines.xdc
+set_property used_in_implementation false [get_files C:/Repo-Asus/VHDL-Basys3/Aplicaciones/cronometroV2/cronometro.srcs/constrs_1/new/pines.xdc]
 
 set_param ips.enableIPCacheLiteLoad 1
 
-read_checkpoint -auto_incremental -incremental C:/Repo-Asus/cronometro_OJO/cronometro.srcs/utils_1/imports/synth_1/TopCronometro.dcp
+read_checkpoint -auto_incremental -incremental C:/Repo-Asus/VHDL-Basys3/Aplicaciones/cronometroV2/cronometro.srcs/utils_1/imports/synth_1/TopCronometro.dcp
 close [open __synthesis_is_running__ w]
 
 OPTRACE "synth_design" START { }

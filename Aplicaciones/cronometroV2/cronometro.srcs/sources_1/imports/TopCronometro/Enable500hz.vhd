@@ -12,10 +12,9 @@ architecture Behavioral of Enable500hz is
 -- fincuenta = tiempo del alto/200ns ejemplo fincuenta= 2ms/1ms=2
 -- cuenta = log(cuenta)/log(2) ejemplo cuenta= log(2)/log(2)= 1
 
-signal cuenta : natural range 0 to 2:=0; --**17-1
+signal cuenta : natural range 0 to 1:=0; --**17-1
 constant fincuenta : natural := 2;
 signal unseg : std_logic:='0';
-signal aux : std_logic:='1';
 
 begin 
 

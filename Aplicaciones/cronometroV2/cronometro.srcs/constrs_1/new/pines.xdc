@@ -18,7 +18,10 @@ set_property -dict { PACKAGE_PIN W4   IOSTANDARD LVCMOS33 } [get_ports {Anodos[3
 
 set_property -dict { PACKAGE_PIN U18   IOSTANDARD LVCMOS33 } [get_ports reset]
 
-set_property -dict { PACKAGE_PIN V17   IOSTANDARD LVCMOS33 } [get_ports ce]
+set_property -dict { PACKAGE_PIN W19   IOSTANDARD LVCMOS33 } [get_ports btn_hr]
+set_property -dict { PACKAGE_PIN T17   IOSTANDARD LVCMOS33 } [get_ports btn_sg]
+
+set_property -dict { PACKAGE_PIN V16   IOSTANDARD LVCMOS33 } [get_ports ce_P]
 
 set_property -dict { PACKAGE_PIN V7   IOSTANDARD LVCMOS33 } [get_ports punto]
 

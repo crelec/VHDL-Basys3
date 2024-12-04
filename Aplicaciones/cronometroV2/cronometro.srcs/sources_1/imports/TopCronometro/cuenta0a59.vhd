@@ -6,6 +6,7 @@ entity cuenta0a59 is
     Port ( clk : in  STD_LOGIC;
            reset : in  STD_LOGIC;
            ce : in  STD_LOGIC;
+           fin_59: out STD_LOGIC;
            f0a59 : out  STD_LOGIC_VECTOR (5 downto 0));
 end cuenta0a59;
 
@@ -16,15 +17,16 @@ begin
 		begin
 			if reset='1' then
 				cuenta<=(others=>'0');
+				fin_59<='0';
 			elsif clk' event and clk='1' then
 				if ce='1' then
 					if cuenta="111011" then
 						cuenta<=(others=>'0');
+						fin_59<='1';
 					else
 						cuenta<=cuenta +1;
+						fin_59<='0';
 					end if;
-				else
-					cuenta<=cuenta;
 				end if;
 			end if;
 		end process;

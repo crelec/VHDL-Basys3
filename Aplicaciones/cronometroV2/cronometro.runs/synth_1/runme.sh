@@ -25,7 +25,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='C:/Repo-Asus/cronometro_OJO/cronometro.runs/synth_1'
+HD_PWD='C:/Repo-Asus/VHDL-Basys3/Aplicaciones/cronometroV2/cronometro.runs/synth_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log
