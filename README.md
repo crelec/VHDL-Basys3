@@ -37,6 +37,7 @@
 * **Ejemplo Máquina de Estados con entradas sincronas multiplex.** [Ver -> GitHub](https://github.com/ceroma1/VHDL-Basys3/tree/main/MaquinaEstados/MaqEstadoCuatro)
 * **Ejemplo Máquina de Estados detector de secuencia 101.** [Ver -> GitHub](https://github.com/ceroma1/VHDL-Basys3/tree/main/MaquinaEstados/DetectaSucuencia)
 * **Ejemplo Máquina de Estados temporizada.**[Ver -> GitHub](https://github.com/ceroma1/VHDL-Basys3/tree/main/MaquinaEstados/ReboteTemporizado)
+* **Ejemplo Máquina de estados expendedora.** [Ver -> GitHub](https://github.com/crelec/VHDL-Basys3/tree/main/MaquinaEstados/ExpendioDisplay)
 * **Ejemplo Verificación presencia de rebotes en entrada mecanica.** [Ver -> GitHub](https://github.com/ceroma1/VHDL-Basys3/tree/main/MaquinaEstados/VerificaUno)
 * **Ejemplo Verificación eliminación de rebotes en entrada mecanica (Solución por detección de flnco de subida.).** [Ver -> GitHub](https://github.com/ceroma1/VHDL-Basys3/tree/main/MaquinaEstados/VerificaDos)
 * **Ejemplo Verificación eliminación de rebotes en entrada mecanica (Solución con maquina de estados temporizada).** [Ver -> GitHub](https://github.com/ceroma1/VHDL-Basys3/tree/main/MaquinaEstados/VerificaTres)
