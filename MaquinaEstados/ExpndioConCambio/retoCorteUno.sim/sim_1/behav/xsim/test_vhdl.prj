@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../retoCorteUno.srcs/sources_1/new/MaqEstados.vhd" \
+"../../../../retoCorteUno.srcs/sim_1/new/test.vhd" \
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,24 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../retoCorteUno.srcs/sources_1/new/MaqEstados.vhd" \
+"../../../../retoCorteUno.srcs/sources_1/new/Maq_estadoReb1.vhd" \
+"../../../../retoCorteUno.srcs/sources_1/new/Maq_estadoReb2.vhd" \
+"../../../../retoCorteUno.srcs/sources_1/new/Maq_estadoReb5.vhd" \
+"../../../../retoCorteUno.srcs/sources_1/new/ModuloDisplay.vhd" \
+"../../../../retoCorteUno.srcs/sources_1/new/Mux4a1.vhd" \
+"../../../../retoCorteUno.srcs/sources_1/new/SupRebote1.vhd" \
+"../../../../retoCorteUno.srcs/sources_1/new/SupRebote2.vhd" \
+"../../../../retoCorteUno.srcs/sources_1/new/SupRebote5.vhd" \
+"../../../../retoCorteUno.srcs/sources_1/new/Temp1s.vhd" \
+"../../../../retoCorteUno.srcs/sources_1/new/Temp5s.vhd" \
+"../../../../retoCorteUno.srcs/sources_1/new/TempReb1.vhd" \
+"../../../../retoCorteUno.srcs/sources_1/new/TempReb2.vhd" \
+"../../../../retoCorteUno.srcs/sources_1/new/TempReb5.vhd" \
+"../../../../retoCorteUno.srcs/sources_1/new/cuenta1.vhd" \
+"../../../../retoCorteUno.srcs/sources_1/new/divide1.vhd" \
+"../../../../retoCorteUno.srcs/sources_1/new/negacion.vhd" \
+"../../../../retoCorteUno.srcs/sources_1/new/presenta.vhd" \
+"../../../../retoCorteUno.srcs/sources_1/new/Superior.vhd" \
+
+# Do not sort compile order
+nosort
